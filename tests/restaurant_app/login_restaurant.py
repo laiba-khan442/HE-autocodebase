@@ -6,8 +6,8 @@ from appium.webdriver.common.appiumby import AppiumBy
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-test_email = "Laiba+origu;oiuoiu@meshon.com.au"
-test_password = "12375793579Lk56"
+test_email = "Laiba+rest@meshon.com.au"
+test_password = "123123@Lk56"
 
 def test_valid_restaurant_login():
 
@@ -67,6 +67,20 @@ def test_valid_restaurant_login():
 
         login_button.click()
 
+        # asserts if dashboard is displayed, the accessibility Id for "restaurant status" section is being considered here.
+
+        wait = WebDriverWait(driver, 15)
+
+        dashboard = wait.until(
+                    EC.element_to_be_clickable(
+                        (
+                            AppiumBy.ACCESSIBILITY_ID,
+                            "Restaurant Status"
+                        )
+                    )
+                )
+
+        assert dashboard.is_displayed()
 
     finally:
         driver.quit()
