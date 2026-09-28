@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+
+# Python-generated files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Node dependencies
+node_modules/
+
+# Environment variables and credentials
+.env
+credentials.py
+
+# Test reports and recordings
+reports/
+screenshots/
+recordings/
