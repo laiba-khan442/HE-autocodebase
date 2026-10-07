@@ -1,0 +1,23 @@
+framework: pytest
+
+app: bs://0f1f683390d5290b28f5ef6bc9ef3385d49cf272
+
+appiumVersion: 2.19.0
+
+video: true
+interactiveDebugging: true
+newCommandTimeout: 300
+
+platforms:
+  - platformName: android
+    deviceName: Google Pixel 8
+    platformVersion: "14.0"
+    automationName: UiAutomator2
+
+
+parallelsPerPlatform: 1
+
+projectName: HalalEats Restaurant App Automation
+buildName: Android 14 Test Build
+
+browserstackLocal: false
