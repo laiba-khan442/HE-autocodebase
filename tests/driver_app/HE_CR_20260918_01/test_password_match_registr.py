@@ -59,4 +59,4 @@ def test_password_match_registr():
 
        assert create_account.is_displayed()
 
-# clicks on the password field and enters test data 
+# clicks on the password field and enters test data
