@@ -1,6 +1,6 @@
 framework: pytest
 
-app: bs://d699177658a81ff52356b0ff4f6e57d4a11f09ea
+app: bs://f5da4dee0c0ef57d977f974f6b5efa8949c3dd39
 
 appiumVersion: 2.19.0
 
@@ -17,7 +17,7 @@ platforms:
 
 parallelsPerPlatform: 1
 
-projectName: HalalEats User App Automation
+projectName: HalalEats Driver App Automation
 buildName: Android 14 Test Build
 
 browserstackLocal: false
