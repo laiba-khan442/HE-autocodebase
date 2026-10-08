@@ -90,7 +90,7 @@ def test_password_match_registr():
         EC.visibility_of_element_located(
             (
             AppiumBy. ANDROID_UIAUTOMATOR,
-            'new UiSelector().className("android.widget.EditText").instance(1)'
+            'new UiSelector().className("android.widget.EditText").instance(2)'
             )
         )
         )
@@ -115,7 +115,7 @@ def test_password_match_registr():
         EC.visibility_of_element_located(
             (
             AppiumBy. ANDROID_UIAUTOMATOR,
-            'new UiSelector().className("android.widget.EditText").instance(1)'
+            'new UiSelector().className("android.widget.EditText").instance(2)'
             )
         )
         )
