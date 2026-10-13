@@ -27454,3 +27454,2063 @@ Whitelist guide: https://www.browserstack.com/docs/test-reporting-and-analytics/
 2026-10-08T04:10:24.546Z CLI info  [jo9tyfoav4oait70yukfc5vkzyjw9syimmgtfpwl]  [69eecbfb-7196-41b3-870d-dde5a1e64fc9]  [PRODUCTION] Making POST request to https://api.browserstack.com
 2026-10-08T04:10:25.333Z CLI info [TEST REPORTING AND ANALYTICS:module]  [jo9tyfoav4oait70yukfc5vkzyjw9syimmgtfpwl]  [69eecbfb-7196-41b3-870d-dde5a1e64fc9]  Visit https://automation.browserstack.com/builds/jo9tyfoav4oait70yukfc5vkzyjw9syimmgtfpwl to view build report, insights, and many more debugging information all at one place!
 2026-10-08T04:10:25.396Z CLI info  [jo9tyfoav4oait70yukfc5vkzyjw9syimmgtfpwl]  [69eecbfb-7196-41b3-870d-dde5a1e64fc9]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2026-10-13T19:06:10.305Z CLI info [main]    Server listening on port: 5400
+2026-10-13T19:06:10.495Z CLI info    Config : {"framework":"pytest","app":"bs://d09595ec158e4ac75f8b8562e46c17c55d5a1f1f","appiumVersion":"2.19.0","video":true,"interactiveDebugging":true,"newCommandTimeout":300,"platforms":[{"platformName":"ios","deviceName":"iPhone 15","platformVersion":"17","automationName":"XCUITest"}],"parallelsPerPlatform":1,"projectName":"HalalEats iOS App Automation","buildName":"iOS 15 Test Build","browserstackLocal":false}
+2026-10-13T19:06:10.613Z CLI info    Should start debug utility: undefined
+2026-10-13T19:06:10.634Z CLI info [testhub:module]   [3add8775-841b-4dc2-90e7-be2862ed5d96]  Starting testhub from 15788:0
+2026-10-13T19:06:12.866Z CLI info   [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-10-13T19:06:12.872Z CLI info   [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-10-13T19:06:13.944Z CLI info   [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-10-13T19:06:13.946Z CLI info   [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-10-13T19:06:13.947Z CLI info   [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-10-13T19:06:14.689Z CLI info [testhub:module]   [3add8775-841b-4dc2-90e7-be2862ed5d96]  startBuild: response=dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq
+2026-10-13T19:06:14.704Z CLI info  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-10-13T19:06:15.572Z CLI info  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-10-13T19:06:16.198Z CLI error  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-10-13T19:06:16.199Z CLI error  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-10-13T19:06:16.202Z CLI info [appautomate:service]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Using app: bs://d09595ec158e4ac75f8b8562e46c17c55d5a1f1f
+2026-10-13T19:06:22.300Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_EACH',
+    framework: 'pytest',
+    uuid: 'cd3b5061-523f-4fd3-93cf-4f3e63247ce2',
+    name: 'setup',
+    result: 'pending',
+    test_run_id: '4894fbc4-74de-4092-9307-595939864e95',
+    body: { lang: 'python', code: null },
+    scope: 'test_select_halal_pref',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+    file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    started_at: '2026-10-13T19:06:22.280Z'
+  },
+  logs: []
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/batch)
+2026-10-13T19:06:22.321Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_EACH',
+    framework: 'pytest',
+    uuid: 'cd3b5061-523f-4fd3-93cf-4f3e63247ce2',
+    name: 'setup',
+    result: 'passed',
+    test_run_id: '4894fbc4-74de-4092-9307-595939864e95',
+    body: { lang: 'python', code: null },
+    scope: 'test_select_halal_pref',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+    file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    started_at: '2026-10-13T19:06:22.280Z',
+    finished_at: '2026-10-13T19:06:22.315Z'
+  },
+  logs: []
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/batch)
+2026-10-13T19:06:22.340Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'pytest',
+    uuid: '4894fbc4-74de-4092-9307-595939864e95',
+    name: 'test_select_halal_pref',
+    body: {
+      lang: 'python',
+      code: 'def test_select_halal_pref():\n' +
+        '    options = UiAutomator2Options().load_capabilities({\n' +
+        '        "platformName": "iOS",\n' +
+        '        "automationName": "XCUITest",\n' +
+        '    })\n' +
+        '\n' +
+        '\n' +
+        '    driver = webdriver.Remote(\n' +
+        '        "http://127.0.0.1:4723",\n' +
+        '        options=options\n' +
+        '    )\n' +
+        '\n' +
+        '    wait = WebDriverWait(driver, 15)\n' +
+        '\n' +
+        '    time.sleep(60)\n' +
+        '\n' +
+        '# pre-requisite: user should be logged in and should be on the home page.\n' +
+        '\n' +
+        '    try:\n' +
+        '        assert driver.current_package == "com.halaleats.user"\n' +
+        '        print("user is on homescreen")\n' +
+        '\n' +
+        '        # clicks on account\n' +
+        '\n' +
+        '        nav_account = wait.until(\n' +
+        '             EC.visibility_of_element_located(\n' +
+        '                 (\n' +
+        '                     AppiumBy.ACCESSIBILITY_ID,\n' +
+        "                     'Account'\n" +
+        '                 )\n' +
+        '             ))\n' +
+        '        nav_account.click()\n' +
+        '\n' +
+        '        account_section = wait.until(\n' +
+        '              EC.element_to_be_clickable(\n' +
+        '                  (AppiumBy.ANDROID_UIAUTOMATOR,\n' +
+        `                      'new UiSelector().description("Account").instance(1)'\n` +
+        '                  )\n' +
+        '              )\n' +
+        '          )\n' +
+        '\n' +
+        '        assert account_section.is_displayed()\n' +
+        '\n' +
+        '        # navigates payment method section\n' +
+        '\n' +
+        '        halal_pref_nav = driver.find_element(\n' +
+        '                 AppiumBy.ANDROID_UIAUTOMATOR,\n' +
+        "                 'new UiScrollable(new UiSelector().scrollable(true))'\n" +
+        `                 '.scrollIntoView(new UiSelector().description("Halal preference"))'\n` +
+        '                 )\n' +
+        '\n' +
+        '        halal_pref_nav.click()\n' +
+        '\n' +
+        '        halal_pref_sect = wait.until(\n' +
+        '              EC.element_to_be_clickable(\n' +
+        '                  (AppiumBy.ACCESSIBILITY_ID,\n' +
+        "                      'Select Your Halal Preference'\n" +
+        '                  )\n' +
+        '              )\n' +
+        '          )\n' +
+        '        assert halal_pref_sect.is_displayed()\n' +
+        '\n' +
+        '        #selects fully halal-certified badge\n' +
+        '\n' +
+        '        fully_certified = wait.until(\n' +
+        '              EC.element_to_be_clickable(\n' +
+        '                  (AppiumBy.ANDROID_UIAUTOMATOR,\n' +
+        `                      'new UiSelector().className("android.widget.RadioButton").instance(0)'\n` +
+        '                  )\n' +
+        '              )\n' +
+        '          )\n' +
+        '\n' +
+        '        fully_certified.click()\n' +
+        '\n' +
+        '\n' +
+        '        save_prefer = wait.until(\n' +
+        '              EC.element_to_be_clickable(\n' +
+        '                  (AppiumBy.ACCESSIBILITY_ID,\n' +
+        "                      'Save'\n" +
+        '                  )\n' +
+        '              )\n' +
+        '          )\n' +
+        '\n' +
+        '        save_prefer.click()\n' +
+        '\n' +
+        '# additional assertion to see if account is being displayed.\n' +
+        '        assert account_section.is_displayed()\n' +
+        '\n' +
+        '# final toaster assertion\n' +
+        '        confirmation = WebDriverWait(\n' +
+        '        driver,\n' +
+        '        3,\n' +
+        '        poll_frequency=0.1\n' +
+        '        ).until(\n' +
+        '        EC.presence_of_element_located((\n' +
+        '        AppiumBy.ACCESSIBILITY_ID,\n' +
+        '        "Halal preference saved"\n' +
+        '        ))\n' +
+        ')\n' +
+        '\n' +
+        '\n' +
+        '    finally:\n' +
+        '        driver.quit()\n'
+    },
+    identifier: 'test_select_halal_pref',
+    scope: 'test_select_halal_pref',
+    scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+    file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-10-13T19:06:22.323Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: {
+      rerun_name: 'tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true,
+      lts: false
+    }
+  },
+  logs: []
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/batch)
+2026-10-13T19:06:22.356Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:19.538Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: '2026-10-13T19:06:22Z [bstack11ll11ll111_opy_][INFO] - Remote Server Address being passed as : http://127.0.0.1:4723',
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:06:22.367Z CLI info [sdk:service]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Driver initialized as primary driver: platformIndex=0
+2026-10-13T19:06:22.380Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:19.538Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: '2026-10-13T19:06:22Z [bstack11ll11ll111_opy_][INFO] - Completed setup!',
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:06:22.385Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:19.538Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: "2026-10-13T19:06:22Z [bstack11ll11ll111_opy_][INFO] - driver_rank={driver_rank} driver.{method_name} platform_index={f.platform_index}: args={args} kwargs={'command_executor': 'https://hub-aps.browserstack.com/wd/hub', 'options': <appium.options.common.base.AppiumOptions object at 0x000001C7B08B41A0>, 'locator_converter': <appium.webdriver.locator_converter.AppiumLocatorConverter object at 0x000001C7B0753E00>, 'web_element_cls': <class 'appium.webdriver.webelement.WebElement'>, 'client_config': <appium.webdriver.client_config.AppiumClientConfig object at 0x000001C7B0753A10>, 'keep_alive': True, 'file_detector': None}",
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:06:22.390Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:19.538Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: '2026-10-13T19:06:22Z [bstack11ll11ll111_opy_][WARNING] - hub_url=https://hub-aps.browserstack.com/wd/hub',
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:06:22.399Z CLI info [local:module]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  initSession: localIdentifier=undefined pid=undefined
+2026-10-13T19:06:22.720Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_EACH',
+      framework: 'pytest',
+      uuid: 'cd3b5061-523f-4fd3-93cf-4f3e63247ce2',
+      name: 'setup',
+      result: 'pending',
+      test_run_id: '4894fbc4-74de-4092-9307-595939864e95',
+      body: { lang: 'python', code: null },
+      scope: 'test_select_halal_pref',
+      custom_metadata: {},
+      tags: [],
+      scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+      file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      started_at: '2026-10-13T19:06:22.280Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_EACH',
+      framework: 'pytest',
+      uuid: 'cd3b5061-523f-4fd3-93cf-4f3e63247ce2',
+      name: 'setup',
+      result: 'passed',
+      test_run_id: '4894fbc4-74de-4092-9307-595939864e95',
+      body: { lang: 'python', code: null },
+      scope: 'test_select_halal_pref',
+      custom_metadata: {},
+      tags: [],
+      scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+      file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      started_at: '2026-10-13T19:06:22.280Z',
+      finished_at: '2026-10-13T19:06:22.315Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'pytest',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      name: 'test_select_halal_pref',
+      body: {
+        lang: 'python',
+        code: 'def test_select_halal_pref():\n' +
+          '    options = UiAutomator2Options().load_capabilities({\n' +
+          '        "platformName": "iOS",\n' +
+          '        "automationName": "XCUITest",\n' +
+          '    })\n' +
+          '\n' +
+          '\n' +
+          '    driver = webdriver.Remote(\n' +
+          '        "http://127.0.0.1:4723",\n' +
+          '        options=options\n' +
+          '    )\n' +
+          '\n' +
+          '    wait = WebDriverWait(driver, 15)\n' +
+          '\n' +
+          '    time.sleep(60)\n' +
+          '\n' +
+          '# pre-requisite: user should be logged in and should be on the home page.\n' +
+          '\n' +
+          '    try:\n' +
+          '        assert driver.current_package == "com.halaleats.user"\n' +
+          '        print("user is on homescreen")\n' +
+          '\n' +
+          '        # clicks on account\n' +
+          '\n' +
+          '        nav_account = wait.until(\n' +
+          '             EC.visibility_of_element_located(\n' +
+          '                 (\n' +
+          '                     AppiumBy.ACCESSIBILITY_ID,\n' +
+          "                     'Account'\n" +
+          '                 )\n' +
+          '             ))\n' +
+          '        nav_account.click()\n' +
+          '\n' +
+          '        account_section = wait.until(\n' +
+          '              EC.element_to_be_clickable(\n' +
+          '                  (AppiumBy.ANDROID_UIAUTOMATOR,\n' +
+          `                      'new UiSelector().description("Account").instance(1)'\n` +
+          '                  )\n' +
+          '              )\n' +
+          '          )\n' +
+          '\n' +
+          '        assert account_section.is_displayed()\n' +
+          '\n' +
+          '        # navigates payment method section\n' +
+          '\n' +
+          '        halal_pref_nav = driver.find_element(\n' +
+          '                 AppiumBy.ANDROID_UIAUTOMATOR,\n' +
+          "                 'new UiScrollable(new UiSelector().scrollable(true))'\n" +
+          `                 '.scrollIntoView(new UiSelector().description("Halal preference"))'\n` +
+          '                 )\n' +
+          '\n' +
+          '        halal_pref_nav.click()\n' +
+          '\n' +
+          '        halal_pref_sect = wait.until(\n' +
+          '              EC.element_to_be_clickable(\n' +
+          '                  (AppiumBy.ACCESSIBILITY_ID,\n' +
+          "                      'Select Your Halal Preference'\n" +
+          '                  )\n' +
+          '              )\n' +
+          '          )\n' +
+          '        assert halal_pref_sect.is_displayed()\n' +
+          '\n' +
+          '        #selects fully halal-certified badge\n' +
+          '\n' +
+          '        fully_certified = wait.until(\n' +
+          '              EC.element_to_be_clickable(\n' +
+          '                  (AppiumBy.ANDROID_UIAUTOMATOR,\n' +
+          `                      'new UiSelector().className("android.widget.RadioButton").instance(0)'\n` +
+          '                  )\n' +
+          '              )\n' +
+          '          )\n' +
+          '\n' +
+          '        fully_certified.click()\n' +
+          '\n' +
+          '\n' +
+          '        save_prefer = wait.until(\n' +
+          '              EC.element_to_be_clickable(\n' +
+          '                  (AppiumBy.ACCESSIBILITY_ID,\n' +
+          "                      'Save'\n" +
+          '                  )\n' +
+          '              )\n' +
+          '          )\n' +
+          '\n' +
+          '        save_prefer.click()\n' +
+          '\n' +
+          '# additional assertion to see if account is being displayed.\n' +
+          '        assert account_section.is_displayed()\n' +
+          '\n' +
+          '# final toaster assertion\n' +
+          '        confirmation = WebDriverWait(\n' +
+          '        driver,\n' +
+          '        3,\n' +
+          '        poll_frequency=0.1\n' +
+          '        ).until(\n' +
+          '        EC.presence_of_element_located((\n' +
+          '        AppiumBy.ACCESSIBILITY_ID,\n' +
+          '        "Halal preference saved"\n' +
+          '        ))\n' +
+          ')\n' +
+          '\n' +
+          '\n' +
+          '    finally:\n' +
+          '        driver.quit()\n'
+      },
+      identifier: 'test_select_halal_pref',
+      scope: 'test_select_halal_pref',
+      scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+      file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-10-13T19:06:22.323Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: {
+        rerun_name: 'tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref'
+      },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: false,
+        app_automate: true,
+        lts: false
+      }
+    },
+    logs: []
+  }
+] to 15788:0
+2026-10-13T19:06:22.724Z CLI info  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-13T19:06:23.592Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:06:19.538Z',
+        uuid: '4894fbc4-74de-4092-9307-595939864e95',
+        kind: 'TEST_LOG',
+        message: '2026-10-13T19:06:22Z [bstack11ll11ll111_opy_][INFO] - Remote Server Address being passed as : http://127.0.0.1:4723',
+        level: 'INFO',
+        test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:06:19.538Z',
+        uuid: '4894fbc4-74de-4092-9307-595939864e95',
+        kind: 'TEST_LOG',
+        message: '2026-10-13T19:06:22Z [bstack11ll11ll111_opy_][INFO] - Completed setup!',
+        level: 'INFO',
+        test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:06:19.538Z',
+        uuid: '4894fbc4-74de-4092-9307-595939864e95',
+        kind: 'TEST_LOG',
+        message: "2026-10-13T19:06:22Z [bstack11ll11ll111_opy_][INFO] - driver_rank={driver_rank} driver.{method_name} platform_index={f.platform_index}: args={args} kwargs={'command_executor': 'https://hub-aps.browserstack.com/wd/hub', 'options': <appium.options.common.base.AppiumOptions object at 0x000001C7B08B41A0>, 'locator_converter': <appium.webdriver.locator_converter.AppiumLocatorConverter object at 0x000001C7B0753E00>, 'web_element_cls': <class 'appium.webdriver.webelement.WebElement'>, 'client_config': <appium.webdriver.client_config.AppiumClientConfig object at 0x000001C7B0753A10>, 'keep_alive': True, 'file_detector': None}",
+        level: 'INFO',
+        test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:06:19.538Z',
+        uuid: '4894fbc4-74de-4092-9307-595939864e95',
+        kind: 'TEST_LOG',
+        message: '2026-10-13T19:06:22Z [bstack11ll11ll111_opy_][WARNING] - hub_url=https://hub-aps.browserstack.com/wd/hub',
+        level: 'INFO',
+        test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+      }
+    ]
+  }
+] to 15788:0
+2026-10-13T19:06:23.595Z CLI info  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-13T19:07:04.907Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '4894fbc4-74de-4092-9307-595939864e95',
+    integrations: { browserstack: [Object] }
+  }
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/batch)
+2026-10-13T19:07:04.911Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      integrations: {
+        browserstack: {
+          product: 'app-automate',
+          session_id: 'cfddfc43ff67e1bf6cc481ca0d54803c83d8da03',
+          capabilities: {
+            webStorageEnabled: false,
+            locationContextEnabled: false,
+            browserName: '',
+            platform: 'MAC',
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            takesScreenshot: true,
+            networkConnectionEnabled: false,
+            platformName: 'iOS',
+            'bstack:options': { hostName: 'Desktop-Laiba', buildIdentifier: '#1' },
+            newCommandTimeout: 0,
+            realMobile: 'true',
+            deviceName: 'iPhone 15',
+            safariIgnoreFraudWarning: true,
+            orientation: 'PORTRAIT',
+            deviceOrientation: 'PORTRAIT',
+            noReset: true,
+            automationName: 'XCUITest',
+            keychainPath: '[REDACTED VALUE]',
+            keychainPassword: '[REDACTED VALUE]',
+            useXctestrunFile: true,
+            bootstrapPath: '/usr/local/.browserstack/config/wda_derived_data_17_3.5.2.12.0.0_3f1f4146-d344-4e69-b085-34bbe998bf36/Build/Products',
+            'browserstack.isTargetBased': 'true',
+            bundleID: 'com.halaleats.customer',
+            bundleId: 'com.halaleats.customer',
+            udid: '00008120-0016646C3CD2201E',
+            webkitResponseTimeout: 20000,
+            safariInitialUrl: 'http://mobile-internet-check.browserstack.com',
+            waitForQuiescence: false,
+            wdaStartupRetries: 3,
+            optimalHubUrl: 'hub-aps.browserstack.com'
+          },
+          platform: 'iOS',
+          platform_version: '17',
+          browser: undefined,
+          browser_version: undefined,
+          device_name: 'iPhone 15'
+        }
+      }
+    }
+  }
+] to 15788:0
+2026-10-13T19:07:04.914Z CLI info  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-13T19:08:08.629Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:19.538Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: 'Test failed:',
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:08:08.632Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:19.538Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: 'tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref',
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:08:08.635Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:19.538Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: 'dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq',
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:08:08.638Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:19.538Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: 'Test failed:  tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq',
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:08:08.649Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:19.538Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: '\x1B]9;4;2;0\x1B\\',
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:08:08.657Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:19.538Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: '\x1B[31mFAILED\x1B[0m',
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:08:09.163Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:06:19.538Z',
+        uuid: '4894fbc4-74de-4092-9307-595939864e95',
+        kind: 'TEST_LOG',
+        message: 'Test failed:',
+        level: 'INFO',
+        test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:06:19.538Z',
+        uuid: '4894fbc4-74de-4092-9307-595939864e95',
+        kind: 'TEST_LOG',
+        message: 'tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref',
+        level: 'INFO',
+        test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:06:19.538Z',
+        uuid: '4894fbc4-74de-4092-9307-595939864e95',
+        kind: 'TEST_LOG',
+        message: 'dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq',
+        level: 'INFO',
+        test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:06:19.538Z',
+        uuid: '4894fbc4-74de-4092-9307-595939864e95',
+        kind: 'TEST_LOG',
+        message: 'Test failed:  tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq',
+        level: 'INFO',
+        test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:06:19.538Z',
+        uuid: '4894fbc4-74de-4092-9307-595939864e95',
+        kind: 'TEST_LOG',
+        message: '\x1B]9;4;2;0\x1B\\',
+        level: 'INFO',
+        test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:06:19.538Z',
+        uuid: '4894fbc4-74de-4092-9307-595939864e95',
+        kind: 'TEST_LOG',
+        message: '\x1B[31mFAILED\x1B[0m',
+        level: 'INFO',
+        test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+      }
+    ]
+  }
+] to 15788:0
+2026-10-13T19:08:09.165Z CLI info  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-13T19:08:10.490Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'pytest',
+    uuid: '4894fbc4-74de-4092-9307-595939864e95',
+    name: 'test_select_halal_pref',
+    body: {
+      lang: 'python',
+      code: 'def test_select_halal_pref():\n' +
+        '    options = UiAutomator2Options().load_capabilities({\n' +
+        '        "platformName": "iOS",\n' +
+        '        "automationName": "XCUITest",\n' +
+        '    })\n' +
+        '\n' +
+        '\n' +
+        '    driver = webdriver.Remote(\n' +
+        '        "http://127.0.0.1:4723",\n' +
+        '        options=options\n' +
+        '    )\n' +
+        '\n' +
+        '    wait = WebDriverWait(driver, 15)\n' +
+        '\n' +
+        '    time.sleep(60)\n' +
+        '\n' +
+        '# pre-requisite: user should be logged in and should be on the home page.\n' +
+        '\n' +
+        '    try:\n' +
+        '        assert driver.current_package == "com.halaleats.user"\n' +
+        '        print("user is on homescreen")\n' +
+        '\n' +
+        '        # clicks on account\n' +
+        '\n' +
+        '        nav_account = wait.until(\n' +
+        '             EC.visibility_of_element_located(\n' +
+        '                 (\n' +
+        '                     AppiumBy.ACCESSIBILITY_ID,\n' +
+        "                     'Account'\n" +
+        '                 )\n' +
+        '             ))\n' +
+        '        nav_account.click()\n' +
+        '\n' +
+        '        account_section = wait.until(\n' +
+        '              EC.element_to_be_clickable(\n' +
+        '                  (AppiumBy.ANDROID_UIAUTOMATOR,\n' +
+        `                      'new UiSelector().description("Account").instance(1)'\n` +
+        '                  )\n' +
+        '              )\n' +
+        '          )\n' +
+        '\n' +
+        '        assert account_section.is_displayed()\n' +
+        '\n' +
+        '        # navigates payment method section\n' +
+        '\n' +
+        '        halal_pref_nav = driver.find_element(\n' +
+        '                 AppiumBy.ANDROID_UIAUTOMATOR,\n' +
+        "                 'new UiScrollable(new UiSelector().scrollable(true))'\n" +
+        `                 '.scrollIntoView(new UiSelector().description("Halal preference"))'\n` +
+        '                 )\n' +
+        '\n' +
+        '        halal_pref_nav.click()\n' +
+        '\n' +
+        '        halal_pref_sect = wait.until(\n' +
+        '              EC.element_to_be_clickable(\n' +
+        '                  (AppiumBy.ACCESSIBILITY_ID,\n' +
+        "                      'Select Your Halal Preference'\n" +
+        '                  )\n' +
+        '              )\n' +
+        '          )\n' +
+        '        assert halal_pref_sect.is_displayed()\n' +
+        '\n' +
+        '        #selects fully halal-certified badge\n' +
+        '\n' +
+        '        fully_certified = wait.until(\n' +
+        '              EC.element_to_be_clickable(\n' +
+        '                  (AppiumBy.ANDROID_UIAUTOMATOR,\n' +
+        `                      'new UiSelector().className("android.widget.RadioButton").instance(0)'\n` +
+        '                  )\n' +
+        '              )\n' +
+        '          )\n' +
+        '\n' +
+        '        fully_certified.click()\n' +
+        '\n' +
+        '\n' +
+        '        save_prefer = wait.until(\n' +
+        '              EC.element_to_be_clickable(\n' +
+        '                  (AppiumBy.ACCESSIBILITY_ID,\n' +
+        "                      'Save'\n" +
+        '                  )\n' +
+        '              )\n' +
+        '          )\n' +
+        '\n' +
+        '        save_prefer.click()\n' +
+        '\n' +
+        '# additional assertion to see if account is being displayed.\n' +
+        '        assert account_section.is_displayed()\n' +
+        '\n' +
+        '# final toaster assertion\n' +
+        '        confirmation = WebDriverWait(\n' +
+        '        driver,\n' +
+        '        3,\n' +
+        '        poll_frequency=0.1\n' +
+        '        ).until(\n' +
+        '        EC.presence_of_element_located((\n' +
+        '        AppiumBy.ACCESSIBILITY_ID,\n' +
+        '        "Halal preference saved"\n' +
+        '        ))\n' +
+        ')\n' +
+        '\n' +
+        '\n' +
+        '    finally:\n' +
+        '        driver.quit()\n'
+    },
+    identifier: 'test_select_halal_pref',
+    scope: 'test_select_halal_pref',
+    scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+    file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    result: 'failed',
+    duration_in_ms: 106327,
+    started_at: '2026-10-13T19:06:22.323Z',
+    finished_at: '2026-10-13T19:08:08.650Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: {
+      rerun_name: 'tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref'
+    },
+    hooks: [ 'cd3b5061-523f-4fd3-93cf-4f3e63247ce2' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true,
+      lts: false
+    }
+  },
+  logs: []
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/batch)
+2026-10-13T19:08:10.498Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_EACH',
+    framework: 'pytest',
+    uuid: 'deb45c8d-b3ab-49e2-b14f-3f5dd813e5c6',
+    name: 'teardown',
+    result: 'pending',
+    test_run_id: '4894fbc4-74de-4092-9307-595939864e95',
+    body: { lang: 'python', code: null },
+    scope: 'test_select_halal_pref',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+    file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    started_at: '2026-10-13T19:08:10.486Z'
+  },
+  logs: []
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/batch)
+2026-10-13T19:08:10.506Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:22.347Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: 'Remote Server Address being passed as : http://127.0.0.1:4723',
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:08:10.506Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:22.379Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: 'Completed setup!',
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:08:10.507Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:22.383Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: "driver_rank={driver_rank} driver.{method_name} platform_index={f.platform_index}: args={args} kwargs={'command_executor': 'https://hub-aps.browserstack.com/wd/hub', 'options': <appium.options.common.base.AppiumOptions object at 0x000001C7B08B41A0>, 'locator_converter': <appium.webdriver.locator_converter.AppiumLocatorConverter object at 0x000001C7B0753E00>, 'web_element_cls': <class 'appium.webdriver.webelement.WebElement'>, 'client_config': <appium.webdriver.client_config.AppiumClientConfig object at 0x000001C7B0753A10>, 'keep_alive': True, 'file_detector': None}",
+      level: 'INFO',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:08:10.508Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:06:22.389Z',
+      uuid: '4894fbc4-74de-4092-9307-595939864e95',
+      kind: 'TEST_LOG',
+      message: 'hub_url=https://hub-aps.browserstack.com/wd/hub',
+      level: 'WARNING',
+      test_run_uuid: '4894fbc4-74de-4092-9307-595939864e95'
+    }
+  ]
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/logs/batch)
+2026-10-13T19:08:10.515Z CLI info [testhub:request-queue-handler]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_EACH',
+    framework: 'pytest',
+    uuid: 'deb45c8d-b3ab-49e2-b14f-3f5dd813e5c6',
+    name: 'teardown',
+    result: 'passed',
+    test_run_id: '4894fbc4-74de-4092-9307-595939864e95',
+    body: { lang: 'python', code: null },
+    scope: 'test_select_halal_pref',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+    file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    started_at: '2026-10-13T19:08:10.486Z',
+    finished_at: '2026-10-13T19:08:10.507Z'
+  },
+  logs: []
+} to 15788:0 (target=/api/v2/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq/batch)
+2026-10-13T19:08:11.135Z CLI info  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-10-13T19:08:11.145Z CLI info  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-13T19:08:11.148Z CLI info  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-13T19:08:12.196Z CLI info  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-10-13T19:08:12.898Z CLI info [testhub:module]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  stopBuild: dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq request={"finished_at":"2026-10-13T19:08:11.134Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-10-13T19:08:12.903Z CLI info  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-10-13T19:08:13.659Z CLI info [TEST REPORTING AND ANALYTICS:module]  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  Visit https://automation.browserstack.com/builds/dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq to view build report, insights, and many more debugging information all at one place!
+2026-10-13T19:08:13.728Z CLI info  [dltqqew8lbo5xezcnvp1pdjtztgcpygwz2nfynoq]  [3add8775-841b-4dc2-90e7-be2862ed5d96]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2026-10-13T19:25:51.379Z CLI info [main]    Server listening on port: 5400
+2026-10-13T19:25:51.468Z CLI info    Config : {"framework":"pytest","app":"bs://d09595ec158e4ac75f8b8562e46c17c55d5a1f1f","appiumVersion":"2.19.0","video":true,"interactiveDebugging":true,"newCommandTimeout":300,"platforms":[{"platformName":"ios","deviceName":"iPhone 15","platformVersion":"17","automationName":"XCUITest"}],"parallelsPerPlatform":1,"projectName":"HalalEats iOS App Automation","buildName":"iOS 15 Test Build","browserstackLocal":false}
+2026-10-13T19:25:51.500Z CLI info    Should start debug utility: undefined
+2026-10-13T19:25:51.507Z CLI info [testhub:module]   [a7635c78-55ec-4e94-be44-7d05437dc219]  Starting testhub from 28344:0
+2026-10-13T19:25:52.653Z CLI info   [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-10-13T19:25:52.658Z CLI info   [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-10-13T19:25:54.262Z CLI info   [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-10-13T19:25:54.266Z CLI info   [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-10-13T19:25:54.269Z CLI info   [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-10-13T19:25:54.328Z CLI info [testhub:module]   [a7635c78-55ec-4e94-be44-7d05437dc219]  startBuild: response=vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc
+2026-10-13T19:25:54.339Z CLI info  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-10-13T19:25:55.308Z CLI info  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-10-13T19:25:55.964Z CLI error  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-10-13T19:25:55.966Z CLI error  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-10-13T19:25:55.971Z CLI info [appautomate:service]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Using app: bs://d09595ec158e4ac75f8b8562e46c17c55d5a1f1f
+2026-10-13T19:26:03.131Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_EACH',
+    framework: 'pytest',
+    uuid: '822a477d-2461-4a47-8607-3159c8838746',
+    name: 'setup',
+    result: 'pending',
+    test_run_id: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+    body: { lang: 'python', code: null },
+    scope: 'test_select_halal_pref',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+    file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    started_at: '2026-10-13T19:26:03.105Z'
+  },
+  logs: []
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/batch)
+2026-10-13T19:26:03.146Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_EACH',
+    framework: 'pytest',
+    uuid: '822a477d-2461-4a47-8607-3159c8838746',
+    name: 'setup',
+    result: 'passed',
+    test_run_id: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+    body: { lang: 'python', code: null },
+    scope: 'test_select_halal_pref',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+    file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    started_at: '2026-10-13T19:26:03.105Z',
+    finished_at: '2026-10-13T19:26:03.139Z'
+  },
+  logs: []
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/batch)
+2026-10-13T19:26:03.167Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'pytest',
+    uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+    name: 'test_select_halal_pref',
+    body: {
+      lang: 'python',
+      code: 'def test_select_halal_pref():\n' +
+        '    options = XCUITestOptions().load_capabilities({\n' +
+        '        "platformName": "iOS",\n' +
+        '        "automationName": "XCUITest",\n' +
+        '    })\n' +
+        '\n' +
+        '    driver = webdriver.Remote(\n' +
+        '        "http://127.0.0.1:4723",\n' +
+        '        options=options\n' +
+        '    )\n' +
+        '\n' +
+        '    try:\n' +
+        '        wait = WebDriverWait(driver, 30)\n' +
+        '\n' +
+        '        # Temporary time for manually preparing the precondition:\n' +
+        '        # User is logged in and positioned on the home screen.\n' +
+        '        time.sleep(60)\n' +
+        '\n' +
+        '        # Confirm home screen and open Account.\n' +
+        '        nav_account = wait.until(\n' +
+        '            EC.element_to_be_clickable((\n' +
+        '                AppiumBy.ACCESSIBILITY_ID,\n' +
+        '                "Account"\n' +
+        '            ))\n' +
+        '        )\n' +
+        '\n' +
+        '        assert nav_account.is_displayed()\n' +
+        '        print("User is on the home screen.")\n' +
+        '\n' +
+        '        nav_account.click()\n' +
+        '\n' +
+        '        # Scroll to Halal Preference using an iOS command.\n' +
+        '        driver.execute_script(\n' +
+        '            "mobile: scroll",\n' +
+        '            {"name": "Halal preference"}\n' +
+        '        )\n' +
+        '\n' +
+        '        halal_pref_nav = wait.until(\n' +
+        '            EC.element_to_be_clickable((\n' +
+        '                AppiumBy.ACCESSIBILITY_ID,\n' +
+        '                "Halal preference"\n' +
+        '            ))\n' +
+        '        )\n' +
+        '\n' +
+        '        halal_pref_nav.click()\n' +
+        '\n' +
+        '        # Confirm preference screen.\n' +
+        '        halal_pref_section = wait.until(\n' +
+        '            EC.visibility_of_element_located((\n' +
+        '                AppiumBy.ACCESSIBILITY_ID,\n' +
+        '                "Select Your Halal Preference"\n' +
+        '            ))\n' +
+        '        )\n' +
+        '\n' +
+        '        assert halal_pref_section.is_displayed()\n' +
+        '\n' +
+        '        # Replace this value with the exact accessibility ID\n' +
+        '        # displayed in Appium Inspector for the iOS element.\n' +
+        '        fully_certified = wait.until(\n' +
+        '            EC.element_to_be_clickable((\n' +
+        '                AppiumBy.ACCESSIBILITY_ID,\n' +
+        '                "Fully halal-certified"\n' +
+        '            ))\n' +
+        '        )\n' +
+        '\n' +
+        '        fully_certified.click()\n' +
+        '\n' +
+        '        save_preference = wait.until(\n' +
+        '            EC.element_to_be_clickable((\n' +
+        '                AppiumBy.ACCESSIBILITY_ID,\n' +
+        '                "Save"\n' +
+        '            ))\n' +
+        '        )\n' +
+        '\n' +
+        '        save_preference.click()\n' +
+        '\n' +
+        '        # Verify confirmation.\n' +
+        '        confirmation = WebDriverWait(\n' +
+        '            driver,\n' +
+        '            5,\n' +
+        '            poll_frequency=0.2\n' +
+        '        ).until(\n' +
+        '            EC.visibility_of_element_located((\n' +
+        '                AppiumBy.ACCESSIBILITY_ID,\n' +
+        '                "Halal preference saved"\n' +
+        '            ))\n' +
+        '        )\n' +
+        '\n' +
+        '        assert confirmation.is_displayed()\n' +
+        '        print("Halal preference saved successfully.")\n' +
+        '\n' +
+        '    finally:\n' +
+        '        driver.quit()\n'
+    },
+    identifier: 'test_select_halal_pref',
+    scope: 'test_select_halal_pref',
+    scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+    file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-10-13T19:26:03.145Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: {
+      rerun_name: 'tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true,
+      lts: false
+    }
+  },
+  logs: []
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/batch)
+2026-10-13T19:26:03.185Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:25:59.430Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: '2026-10-13T19:26:03Z [bstack11ll11ll111_opy_][INFO] - Remote Server Address being passed as : http://127.0.0.1:4723',
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:26:03.195Z CLI info [sdk:service]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Driver initialized as primary driver: platformIndex=0
+2026-10-13T19:26:03.210Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:25:59.430Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: '2026-10-13T19:26:03Z [bstack11ll11ll111_opy_][INFO] - Completed setup!',
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:26:03.221Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:25:59.430Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: "2026-10-13T19:26:03Z [bstack11ll11ll111_opy_][INFO] - driver_rank={driver_rank} driver.{method_name} platform_index={f.platform_index}: args={args} kwargs={'command_executor': 'https://hub-aps.browserstack.com/wd/hub', 'options': <appium.options.common.base.AppiumOptions object at 0x00000245630E0830>, 'locator_converter': <appium.webdriver.locator_converter.AppiumLocatorConverter object at 0x00000245630E0590>, 'web_element_cls': <class 'appium.webdriver.webelement.WebElement'>, 'client_config': <appium.webdriver.client_config.AppiumClientConfig object at 0x00000245630E01A0>, 'keep_alive': True, 'file_detector': None}",
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:26:03.225Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:25:59.430Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: '2026-10-13T19:26:03Z [bstack11ll11ll111_opy_][WARNING] - hub_url=https://hub-aps.browserstack.com/wd/hub',
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:26:03.233Z CLI info [local:module]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  initSession: localIdentifier=undefined pid=undefined
+2026-10-13T19:26:04.369Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_EACH',
+      framework: 'pytest',
+      uuid: '822a477d-2461-4a47-8607-3159c8838746',
+      name: 'setup',
+      result: 'pending',
+      test_run_id: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      body: { lang: 'python', code: null },
+      scope: 'test_select_halal_pref',
+      custom_metadata: {},
+      tags: [],
+      scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+      file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      started_at: '2026-10-13T19:26:03.105Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_EACH',
+      framework: 'pytest',
+      uuid: '822a477d-2461-4a47-8607-3159c8838746',
+      name: 'setup',
+      result: 'passed',
+      test_run_id: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      body: { lang: 'python', code: null },
+      scope: 'test_select_halal_pref',
+      custom_metadata: {},
+      tags: [],
+      scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+      file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      started_at: '2026-10-13T19:26:03.105Z',
+      finished_at: '2026-10-13T19:26:03.139Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'pytest',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      name: 'test_select_halal_pref',
+      body: {
+        lang: 'python',
+        code: 'def test_select_halal_pref():\n' +
+          '    options = XCUITestOptions().load_capabilities({\n' +
+          '        "platformName": "iOS",\n' +
+          '        "automationName": "XCUITest",\n' +
+          '    })\n' +
+          '\n' +
+          '    driver = webdriver.Remote(\n' +
+          '        "http://127.0.0.1:4723",\n' +
+          '        options=options\n' +
+          '    )\n' +
+          '\n' +
+          '    try:\n' +
+          '        wait = WebDriverWait(driver, 30)\n' +
+          '\n' +
+          '        # Temporary time for manually preparing the precondition:\n' +
+          '        # User is logged in and positioned on the home screen.\n' +
+          '        time.sleep(60)\n' +
+          '\n' +
+          '        # Confirm home screen and open Account.\n' +
+          '        nav_account = wait.until(\n' +
+          '            EC.element_to_be_clickable((\n' +
+          '                AppiumBy.ACCESSIBILITY_ID,\n' +
+          '                "Account"\n' +
+          '            ))\n' +
+          '        )\n' +
+          '\n' +
+          '        assert nav_account.is_displayed()\n' +
+          '        print("User is on the home screen.")\n' +
+          '\n' +
+          '        nav_account.click()\n' +
+          '\n' +
+          '        # Scroll to Halal Preference using an iOS command.\n' +
+          '        driver.execute_script(\n' +
+          '            "mobile: scroll",\n' +
+          '            {"name": "Halal preference"}\n' +
+          '        )\n' +
+          '\n' +
+          '        halal_pref_nav = wait.until(\n' +
+          '            EC.element_to_be_clickable((\n' +
+          '                AppiumBy.ACCESSIBILITY_ID,\n' +
+          '                "Halal preference"\n' +
+          '            ))\n' +
+          '        )\n' +
+          '\n' +
+          '        halal_pref_nav.click()\n' +
+          '\n' +
+          '        # Confirm preference screen.\n' +
+          '        halal_pref_section = wait.until(\n' +
+          '            EC.visibility_of_element_located((\n' +
+          '                AppiumBy.ACCESSIBILITY_ID,\n' +
+          '                "Select Your Halal Preference"\n' +
+          '            ))\n' +
+          '        )\n' +
+          '\n' +
+          '        assert halal_pref_section.is_displayed()\n' +
+          '\n' +
+          '        # Replace this value with the exact accessibility ID\n' +
+          '        # displayed in Appium Inspector for the iOS element.\n' +
+          '        fully_certified = wait.until(\n' +
+          '            EC.element_to_be_clickable((\n' +
+          '                AppiumBy.ACCESSIBILITY_ID,\n' +
+          '                "Fully halal-certified"\n' +
+          '            ))\n' +
+          '        )\n' +
+          '\n' +
+          '        fully_certified.click()\n' +
+          '\n' +
+          '        save_preference = wait.until(\n' +
+          '            EC.element_to_be_clickable((\n' +
+          '                AppiumBy.ACCESSIBILITY_ID,\n' +
+          '                "Save"\n' +
+          '            ))\n' +
+          '        )\n' +
+          '\n' +
+          '        save_preference.click()\n' +
+          '\n' +
+          '        # Verify confirmation.\n' +
+          '        confirmation = WebDriverWait(\n' +
+          '            driver,\n' +
+          '            5,\n' +
+          '            poll_frequency=0.2\n' +
+          '        ).until(\n' +
+          '            EC.visibility_of_element_located((\n' +
+          '                AppiumBy.ACCESSIBILITY_ID,\n' +
+          '                "Halal preference saved"\n' +
+          '            ))\n' +
+          '        )\n' +
+          '\n' +
+          '        assert confirmation.is_displayed()\n' +
+          '        print("Halal preference saved successfully.")\n' +
+          '\n' +
+          '    finally:\n' +
+          '        driver.quit()\n'
+      },
+      identifier: 'test_select_halal_pref',
+      scope: 'test_select_halal_pref',
+      scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+      file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-10-13T19:26:03.145Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: {
+        rerun_name: 'tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref'
+      },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: false,
+        app_automate: true,
+        lts: false
+      }
+    },
+    logs: []
+  }
+] to 28344:0
+2026-10-13T19:26:04.371Z CLI info  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-13T19:26:05.215Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:25:59.430Z',
+        uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+        kind: 'TEST_LOG',
+        message: '2026-10-13T19:26:03Z [bstack11ll11ll111_opy_][INFO] - Remote Server Address being passed as : http://127.0.0.1:4723',
+        level: 'INFO',
+        test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:25:59.430Z',
+        uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+        kind: 'TEST_LOG',
+        message: '2026-10-13T19:26:03Z [bstack11ll11ll111_opy_][INFO] - Completed setup!',
+        level: 'INFO',
+        test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:25:59.430Z',
+        uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+        kind: 'TEST_LOG',
+        message: "2026-10-13T19:26:03Z [bstack11ll11ll111_opy_][INFO] - driver_rank={driver_rank} driver.{method_name} platform_index={f.platform_index}: args={args} kwargs={'command_executor': 'https://hub-aps.browserstack.com/wd/hub', 'options': <appium.options.common.base.AppiumOptions object at 0x00000245630E0830>, 'locator_converter': <appium.webdriver.locator_converter.AppiumLocatorConverter object at 0x00000245630E0590>, 'web_element_cls': <class 'appium.webdriver.webelement.WebElement'>, 'client_config': <appium.webdriver.client_config.AppiumClientConfig object at 0x00000245630E01A0>, 'keep_alive': True, 'file_detector': None}",
+        level: 'INFO',
+        test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:25:59.430Z',
+        uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+        kind: 'TEST_LOG',
+        message: '2026-10-13T19:26:03Z [bstack11ll11ll111_opy_][WARNING] - hub_url=https://hub-aps.browserstack.com/wd/hub',
+        level: 'INFO',
+        test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+      }
+    ]
+  }
+] to 28344:0
+2026-10-13T19:26:05.220Z CLI info  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-13T19:26:37.559Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+    integrations: { browserstack: [Object] }
+  }
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/batch)
+2026-10-13T19:26:38.523Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      integrations: {
+        browserstack: {
+          product: 'app-automate',
+          session_id: 'c8063103ae706babd4c885a16c4c40f7430f76ca',
+          capabilities: {
+            webStorageEnabled: false,
+            locationContextEnabled: false,
+            browserName: '',
+            platform: 'MAC',
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            takesScreenshot: true,
+            networkConnectionEnabled: false,
+            platformName: 'iOS',
+            'bstack:options': { hostName: 'Desktop-Laiba', buildIdentifier: '#2' },
+            newCommandTimeout: 0,
+            realMobile: 'true',
+            deviceName: 'iPhone 15',
+            safariIgnoreFraudWarning: true,
+            orientation: 'PORTRAIT',
+            deviceOrientation: 'PORTRAIT',
+            noReset: true,
+            automationName: 'XCUITest',
+            keychainPath: '[REDACTED VALUE]',
+            keychainPassword: '[REDACTED VALUE]',
+            useXctestrunFile: true,
+            bootstrapPath: '/usr/local/.browserstack/config/wda_derived_data_17_3.5.2.12.0.0_3f1f4146-d344-4e69-b085-34bbe998bf36/Build/Products',
+            'browserstack.isTargetBased': 'true',
+            bundleID: 'com.halaleats.customer',
+            bundleId: 'com.halaleats.customer',
+            udid: '00008120-001E044614C2201E',
+            webkitResponseTimeout: 20000,
+            safariInitialUrl: 'http://mobile-internet-check.browserstack.com',
+            waitForQuiescence: false,
+            wdaStartupRetries: 3,
+            optimalHubUrl: 'hub-aps.browserstack.com'
+          },
+          platform: 'iOS',
+          platform_version: '17',
+          browser: undefined,
+          browser_version: undefined,
+          device_name: 'iPhone 15'
+        }
+      }
+    }
+  }
+] to 28344:0
+2026-10-13T19:26:38.528Z CLI info  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-13T19:28:12.329Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:25:59.430Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: 'Test failed:',
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:28:12.336Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:25:59.430Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: 'tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref',
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:28:12.346Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:25:59.430Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: 'vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc',
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:28:12.355Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:25:59.430Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: 'Test failed:  tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc',
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:28:12.390Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:25:59.430Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: '\x1B]9;4;2;0\x1B\\',
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:28:12.399Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:25:59.430Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: '\x1B[31mFAILED\x1B[0m',
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:28:12.862Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:25:59.430Z',
+        uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+        kind: 'TEST_LOG',
+        message: 'Test failed:',
+        level: 'INFO',
+        test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:25:59.430Z',
+        uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+        kind: 'TEST_LOG',
+        message: 'tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref',
+        level: 'INFO',
+        test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:25:59.430Z',
+        uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+        kind: 'TEST_LOG',
+        message: 'vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc',
+        level: 'INFO',
+        test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:25:59.430Z',
+        uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+        kind: 'TEST_LOG',
+        message: 'Test failed:  tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc',
+        level: 'INFO',
+        test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:25:59.430Z',
+        uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+        kind: 'TEST_LOG',
+        message: '\x1B]9;4;2;0\x1B\\',
+        level: 'INFO',
+        test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-13T19:25:59.430Z',
+        uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+        kind: 'TEST_LOG',
+        message: '\x1B[31mFAILED\x1B[0m',
+        level: 'INFO',
+        test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+      }
+    ]
+  }
+] to 28344:0
+2026-10-13T19:28:12.864Z CLI info  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-13T19:28:15.026Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'pytest',
+    uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+    name: 'test_select_halal_pref',
+    body: {
+      lang: 'python',
+      code: 'def test_select_halal_pref():\n' +
+        '    options = XCUITestOptions().load_capabilities({\n' +
+        '        "platformName": "iOS",\n' +
+        '        "automationName": "XCUITest",\n' +
+        '    })\n' +
+        '\n' +
+        '    driver = webdriver.Remote(\n' +
+        '        "http://127.0.0.1:4723",\n' +
+        '        options=options\n' +
+        '    )\n' +
+        '\n' +
+        '    try:\n' +
+        '        wait = WebDriverWait(driver, 30)\n' +
+        '\n' +
+        '        # Temporary time for manually preparing the precondition:\n' +
+        '        # User is logged in and positioned on the home screen.\n' +
+        '        time.sleep(60)\n' +
+        '\n' +
+        '        # Confirm home screen and open Account.\n' +
+        '        nav_account = wait.until(\n' +
+        '            EC.element_to_be_clickable((\n' +
+        '                AppiumBy.ACCESSIBILITY_ID,\n' +
+        '                "Account"\n' +
+        '            ))\n' +
+        '        )\n' +
+        '\n' +
+        '        assert nav_account.is_displayed()\n' +
+        '        print("User is on the home screen.")\n' +
+        '\n' +
+        '        nav_account.click()\n' +
+        '\n' +
+        '        # Scroll to Halal Preference using an iOS command.\n' +
+        '        driver.execute_script(\n' +
+        '            "mobile: scroll",\n' +
+        '            {"name": "Halal preference"}\n' +
+        '        )\n' +
+        '\n' +
+        '        halal_pref_nav = wait.until(\n' +
+        '            EC.element_to_be_clickable((\n' +
+        '                AppiumBy.ACCESSIBILITY_ID,\n' +
+        '                "Halal preference"\n' +
+        '            ))\n' +
+        '        )\n' +
+        '\n' +
+        '        halal_pref_nav.click()\n' +
+        '\n' +
+        '        # Confirm preference screen.\n' +
+        '        halal_pref_section = wait.until(\n' +
+        '            EC.visibility_of_element_located((\n' +
+        '                AppiumBy.ACCESSIBILITY_ID,\n' +
+        '                "Select Your Halal Preference"\n' +
+        '            ))\n' +
+        '        )\n' +
+        '\n' +
+        '        assert halal_pref_section.is_displayed()\n' +
+        '\n' +
+        '        # Replace this value with the exact accessibility ID\n' +
+        '        # displayed in Appium Inspector for the iOS element.\n' +
+        '        fully_certified = wait.until(\n' +
+        '            EC.element_to_be_clickable((\n' +
+        '                AppiumBy.ACCESSIBILITY_ID,\n' +
+        '                "Fully halal-certified"\n' +
+        '            ))\n' +
+        '        )\n' +
+        '\n' +
+        '        fully_certified.click()\n' +
+        '\n' +
+        '        save_preference = wait.until(\n' +
+        '            EC.element_to_be_clickable((\n' +
+        '                AppiumBy.ACCESSIBILITY_ID,\n' +
+        '                "Save"\n' +
+        '            ))\n' +
+        '        )\n' +
+        '\n' +
+        '        save_preference.click()\n' +
+        '\n' +
+        '        # Verify confirmation.\n' +
+        '        confirmation = WebDriverWait(\n' +
+        '            driver,\n' +
+        '            5,\n' +
+        '            poll_frequency=0.2\n' +
+        '        ).until(\n' +
+        '            EC.visibility_of_element_located((\n' +
+        '                AppiumBy.ACCESSIBILITY_ID,\n' +
+        '                "Halal preference saved"\n' +
+        '            ))\n' +
+        '        )\n' +
+        '\n' +
+        '        assert confirmation.is_displayed()\n' +
+        '        print("Halal preference saved successfully.")\n' +
+        '\n' +
+        '    finally:\n' +
+        '        driver.quit()\n'
+    },
+    identifier: 'test_select_halal_pref',
+    scope: 'test_select_halal_pref',
+    scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+    file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    result: 'failed',
+    duration_in_ms: 129246,
+    started_at: '2026-10-13T19:26:03.145Z',
+    finished_at: '2026-10-13T19:28:12.391Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: {
+      rerun_name: 'tests/user_app/select_halal_prefer_bs_ios.py::test_select_halal_pref'
+    },
+    hooks: [ '822a477d-2461-4a47-8607-3159c8838746' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true,
+      lts: false
+    }
+  },
+  logs: []
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/batch)
+2026-10-13T19:28:15.040Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_EACH',
+    framework: 'pytest',
+    uuid: '3f17fdf3-43cc-443e-af39-651b5703d79e',
+    name: 'teardown',
+    result: 'pending',
+    test_run_id: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+    body: { lang: 'python', code: null },
+    scope: 'test_select_halal_pref',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+    file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    started_at: '2026-10-13T19:28:15.021Z'
+  },
+  logs: []
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/batch)
+2026-10-13T19:28:15.089Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:26:03.171Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: 'Remote Server Address being passed as : http://127.0.0.1:4723',
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:28:15.090Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:26:03.208Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: 'Completed setup!',
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:28:15.092Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:26:03.211Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: "driver_rank={driver_rank} driver.{method_name} platform_index={f.platform_index}: args={args} kwargs={'command_executor': 'https://hub-aps.browserstack.com/wd/hub', 'options': <appium.options.common.base.AppiumOptions object at 0x00000245630E0830>, 'locator_converter': <appium.webdriver.locator_converter.AppiumLocatorConverter object at 0x00000245630E0590>, 'web_element_cls': <class 'appium.webdriver.webelement.WebElement'>, 'client_config': <appium.webdriver.client_config.AppiumClientConfig object at 0x00000245630E01A0>, 'keep_alive': True, 'file_detector': None}",
+      level: 'INFO',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:28:15.093Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-13T19:26:03.221Z',
+      uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+      kind: 'TEST_LOG',
+      message: 'hub_url=https://hub-aps.browserstack.com/wd/hub',
+      level: 'WARNING',
+      test_run_uuid: 'b9e18d22-b57f-4f43-aefb-1772adee30a9'
+    }
+  ]
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/logs/batch)
+2026-10-13T19:28:15.101Z CLI info [testhub:request-queue-handler]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_EACH',
+    framework: 'pytest',
+    uuid: '3f17fdf3-43cc-443e-af39-651b5703d79e',
+    name: 'teardown',
+    result: 'passed',
+    test_run_id: 'b9e18d22-b57f-4f43-aefb-1772adee30a9',
+    body: { lang: 'python', code: null },
+    scope: 'test_select_halal_pref',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'tests', 'user_app', 'select_halal_prefer_bs_ios.py' ],
+    file_name: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    location: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    vc_filepath: 'tests\\user_app\\select_halal_prefer_bs_ios.py',
+    started_at: '2026-10-13T19:28:15.021Z',
+    finished_at: '2026-10-13T19:28:15.077Z'
+  },
+  logs: []
+} to 28344:0 (target=/api/v2/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc/batch)
+2026-10-13T19:28:16.262Z CLI info  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-10-13T19:28:16.276Z CLI info  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-13T19:28:16.281Z CLI info  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-13T19:28:17.017Z CLI info  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-10-13T19:28:17.764Z CLI info [testhub:module]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  stopBuild: vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc request={"finished_at":"2026-10-13T19:28:16.261Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-10-13T19:28:17.775Z CLI info  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-10-13T19:28:18.432Z CLI info [TEST REPORTING AND ANALYTICS:module]  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  Visit https://automation.browserstack.com/builds/vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc to view build report, insights, and many more debugging information all at one place!
+2026-10-13T19:28:18.504Z CLI info  [vvcvibxdn7oen4v8yxktwajbzxwpsqpuaplfitpc]  [a7635c78-55ec-4e94-be44-7d05437dc219]  [PRODUCTION] Making POST request to https://eds.browserstack.com

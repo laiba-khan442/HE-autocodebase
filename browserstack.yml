@@ -1,6 +1,6 @@
 framework: pytest
 
-app: bs://f5da4dee0c0ef57d977f974f6b5efa8949c3dd39
+app: bs://d09595ec158e4ac75f8b8562e46c17c55d5a1f1f
 
 appiumVersion: 2.19.0
 
@@ -9,15 +9,15 @@ interactiveDebugging: true
 newCommandTimeout: 300
 
 platforms:
-  - platformName: android
-    deviceName: Google Pixel 8
-    platformVersion: "14.0"
-    automationName: UiAutomator2
+  - platformName: ios
+    deviceName: iPhone 15
+    platformVersion: "17"
+    automationName: XCUITest
 
 
 parallelsPerPlatform: 1
 
-projectName: HalalEats Driver App Automation
-buildName: Android 14 Test Build
+projectName: HalalEats iOS App Automation
+buildName: iOS 15 Test Build
 
 browserstackLocal: false
