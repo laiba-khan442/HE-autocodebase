@@ -21,3 +21,7 @@ credentials.py
 reports/
 screenshots/
 recordings/
+browserstack.yml
+key-metrics.json
+sdk-cli-debug.log
+sdk-cli.log

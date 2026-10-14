@@ -18,14 +18,27 @@ def test_select_halal_pref():
         options=options
     )
 
+
+    # Manual preparation window:
+    # Grant permissions, complete onboarding/login,
+    # and navigate to the home screen.
+
+    driver.execute_script(
+        'browserstack_executor: {'
+        '"action":"updateIosDeviceSettings",'
+        '"arguments":{"LocationServices":"ON"}}'
+    )
+
+    driver.terminate_app("com.halaleats.customer")
+    driver.activate_app("com.halaleats.customer")
+
+    time.sleep(60)
+
+    wait = WebDriverWait(driver, 20)
+
     try:
-        wait = WebDriverWait(driver, 30)
 
-        # Temporary time for manually preparing the precondition:
-        # User is logged in and positioned on the home screen.
-        time.sleep(60)
-
-        # Confirm home screen and open Account.
+        # Confirm the home screen and open Account.
         nav_account = wait.until(
             EC.element_to_be_clickable((
                 AppiumBy.ACCESSIBILITY_ID,
@@ -38,58 +51,61 @@ def test_select_halal_pref():
 
         nav_account.click()
 
-        # Scroll to Halal Preference using an iOS command.
+        # Scroll down to Halal preference.
         driver.execute_script(
             "mobile: scroll",
             {"name": "Halal preference"}
         )
 
-        halal_pref_nav = wait.until(
+        halal_preference_navigation = wait.until(
             EC.element_to_be_clickable((
                 AppiumBy.ACCESSIBILITY_ID,
                 "Halal preference"
             ))
         )
 
-        halal_pref_nav.click()
+        halal_preference_navigation.click()
 
-        # Confirm preference screen.
-        halal_pref_section = wait.until(
+        # Confirm that the preference screen opened.
+        preference_heading = wait.until(
             EC.visibility_of_element_located((
                 AppiumBy.ACCESSIBILITY_ID,
                 "Select Your Halal Preference"
             ))
         )
 
-        assert halal_pref_section.is_displayed()
+        assert preference_heading.is_displayed()
+        print("Halal preference screen opened.")
 
-        # Replace this value with the exact accessibility ID
-        # displayed in Appium Inspector for the iOS element.
+        # Select Fully Halal Certified.
         fully_certified = wait.until(
             EC.element_to_be_clickable((
-                AppiumBy.ACCESSIBILITY_ID,
-                "Fully halal-certified"
+                AppiumBy.IOS_PREDICATE,
+                'name == "Fully Halal Certified" OR '
+                'label == "Fully Halal Certified"'
             ))
         )
 
         fully_certified.click()
 
-        save_preference = wait.until(
+        # The iOS screen shows Continue, not Save.
+        continue_button = wait.until(
             EC.element_to_be_clickable((
-                AppiumBy.ACCESSIBILITY_ID,
-                "Save"
+                AppiumBy.IOS_PREDICATE,
+                'type == "XCUIElementTypeButton" AND '
+                '(name CONTAINS "Continue" OR label CONTAINS "Continue")'
             ))
         )
 
-        save_preference.click()
+        continue_button.click()
 
-        # Verify confirmation.
+        # Capture the short confirmation message.
         confirmation = WebDriverWait(
             driver,
             5,
-            poll_frequency=0.2
+            poll_frequency=0.1
         ).until(
-            EC.visibility_of_element_located((
+            EC.presence_of_element_located((
                 AppiumBy.ACCESSIBILITY_ID,
                 "Halal preference saved"
             ))
