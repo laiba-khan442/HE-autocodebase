@@ -1,8 +1,9 @@
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from selenium.webdriver.support.ui import WebDriverWait
-from appium.webdriver.common.appiumby import AppiumBy
-from selenium.webdriver.support import expected_conditions as EC
+
+
+APP_PACKAGE = "com.halaleats.user"
 
 
 def test_launch_user_app():
@@ -11,64 +12,17 @@ def test_launch_user_app():
         "automationName": "UiAutomator2",
         "deviceName": "TECNO BG7",
         "udid": "108321542O005568",
-        "appPackage": "com.halaleats.user",
+        "appPackage": APP_PACKAGE,
         "appActivity": "com.halaleats.user.MainActivity",
         "noReset": True,
     })
 
-
-    driver = webdriver.Remote(
-        "http://127.0.0.1:4723",
-        options=options
-    )
-
-    wait = WebDriverWait(driver, 15)
+    driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
     try:
-# runs a while loop until the if conditions is met, otherwise performs the elif block.
-        while  != driver.current_package == "com.halaleats.user":
-               if driver.current_package == "com.halaleats.user":
-                    lang = wait.until(
-                         EC.visibility_of_element_located(
-                             (
-                                 AppiumBy.ACCESSIBILITY_ID,
-                                 'English'
-                             )
-                         ))
-                    lang.click()
-
-                    next_screen = wait.until(
-                         EC.visibility_of_element_located(
-                             (
-                                 AppiumBy.ACCESSIBILITY_ID,
-                                 'Next'
-                             )
-                         ))
-                    next_screen.click()
-
-                    skip_intro = wait.until(
-                         EC.visibility_of_element_located(
-                             (
-                                 AppiumBy.ACCESSIBILITY_ID,
-                                 'Skip'
-                             )
-                         ))
-                    skip_intro.click()
-
-                    assert driver.current_package == "com.halaleats.user"
-                    print("User App launched successfully.")
-
-
-
-               elif driver.current_package == "com.google.android.permissioncontroller":
-                    assert driver.current_package == "com.google.android.permissioncontroller"
-                    allow_notif = wait.until(
-                          EC.visibility_of_element_located(
-                              (
-                                  AppiumBy.ANDROID_UIAUTOMATOR,
-                                  'new UiSelector().resourceId("com.android.permissioncontroller:id/permission_allow_button")'
-                              )
-                          ))
-                    allow_notif.click()
+        WebDriverWait(driver, 15).until(
+            lambda current_driver: current_driver.current_package == APP_PACKAGE
+        )
+        assert driver.current_package == APP_PACKAGE
     finally:
         driver.quit()
