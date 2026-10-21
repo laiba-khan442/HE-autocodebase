@@ -1,6 +1,6 @@
 framework: pytest
 
-app: bs://4745ad794c8f8167af8b5bbd4741ffe33509d8ed
+app: bs://337a963b245f9b4ca104e7d3f14dec22006a1c30
 
 appiumVersion: 2.19.0
 
@@ -17,7 +17,7 @@ platforms:
 
 parallelsPerPlatform: 1
 
-projectName: HalalEats Driver iOS App Automation
-buildName: iOS 15 Driver Test Build
+projectName: HalalEats Restaurant iOS App Automation
+buildName: iOS 15 Restaurant Test Build
 
 browserstackLocal: false
