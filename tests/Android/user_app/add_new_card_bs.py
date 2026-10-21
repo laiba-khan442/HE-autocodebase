@@ -154,6 +154,22 @@ def test_add_new_card():
            ))
         save_card.click()
 
+# assertion for the saved card
 
+        wait.until(
+            EC.visibility_of_element_located(
+                (AppiumBy.ACCESSIBILITY_ID, "Payment methods")
+            )
+        )
+
+        saved_card = wait.until(
+            EC.visibility_of_element_located(
+                (
+                    AppiumBy.ANDROID_UIAUTOMATOR,
+                    'new UiSelector().textContains("4242")'
+                )
+            )
+        )
+        assert saved_card.is_displayed()
     finally:
         driver.quit()
