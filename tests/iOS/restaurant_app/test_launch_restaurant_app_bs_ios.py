@@ -3,7 +3,7 @@ from appium.options.ios import XCUITestOptions
 from selenium.webdriver.support.ui import WebDriverWait
 
 
-APP_BUNDLE_ID = "com.sixamtech.stackFoodRestaurant"
+APP_BUNDLE_ID = "com.halaleats.provider"
 FOREGROUND_APP_STATE = 4
 
 

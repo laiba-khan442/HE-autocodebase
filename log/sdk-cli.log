@@ -70471,3 +70471,1691 @@ Set testReporting: true in your browserstack.yml to dashboard-level build visibi
 2026-10-21T21:34:57.618Z CLI info  [refcssp5afyf1rway5sevztjrqqozx2q44ygv2v6]  [e40dfb88-ebab-4f6e-8a83-ad9c420d2390]  [PRODUCTION] Making POST request to https://api.browserstack.com
 2026-10-21T21:34:58.330Z CLI info [TEST REPORTING AND ANALYTICS:module]  [refcssp5afyf1rway5sevztjrqqozx2q44ygv2v6]  [e40dfb88-ebab-4f6e-8a83-ad9c420d2390]  Visit https://automation.browserstack.com/builds/refcssp5afyf1rway5sevztjrqqozx2q44ygv2v6 to view build report, insights, and many more debugging information all at one place!
 2026-10-21T21:34:58.400Z CLI info  [refcssp5afyf1rway5sevztjrqqozx2q44ygv2v6]  [e40dfb88-ebab-4f6e-8a83-ad9c420d2390]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2026-10-21T21:38:21.374Z CLI info [main]    Server listening on port: 5400
+2026-10-21T21:38:21.477Z CLI info    Config : {"framework":"pytest","app":"bs://337a963b245f9b4ca104e7d3f14dec22006a1c30","appiumVersion":"2.19.0","video":true,"interactiveDebugging":true,"newCommandTimeout":300,"platforms":[{"platformName":"ios","platformVersion":"17","deviceName":"iPhone 15","automationName":"XCUITest"}],"parallelsPerPlatform":1,"projectName":"HalalEats Restaurant iOS App Automation","buildName":"iOS 15 Restaurant Test Build","browserstackLocal":false}
+2026-10-21T21:38:21.534Z CLI info    Should start debug utility: undefined
+2026-10-21T21:38:21.543Z CLI info [testhub:module]   [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Starting testhub from 10848:0
+2026-10-21T21:38:22.944Z CLI info   [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-10-21T21:38:22.948Z CLI info   [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-10-21T21:38:24.240Z CLI info   [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-10-21T21:38:24.242Z CLI info   [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-10-21T21:38:24.246Z CLI info   [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-10-21T21:38:24.557Z CLI info [testhub:module]   [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  startBuild: response=zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0
+2026-10-21T21:38:24.564Z CLI info  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-10-21T21:38:25.401Z CLI info  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-10-21T21:38:26.009Z CLI error  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-10-21T21:38:26.011Z CLI error  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-10-21T21:38:26.014Z CLI info [appautomate:service]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Using app: bs://337a963b245f9b4ca104e7d3f14dec22006a1c30
+2026-10-21T21:38:31.105Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_EACH',
+    framework: 'pytest',
+    uuid: '39d8c0f3-417d-481f-a663-5dba37edced6',
+    name: 'setup',
+    result: 'pending',
+    test_run_id: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+    body: { lang: 'python', code: null },
+    scope: 'test_launch_restaurant_app_ios',
+    custom_metadata: {},
+    tags: [],
+    scopes: [
+      'tests',
+      'iOS',
+      'restaurant_app',
+      'test_launch_restaurant_app_bs_ios.py'
+    ],
+    file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    started_at: '2026-10-21T21:38:31.085Z'
+  },
+  logs: []
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/batch)
+2026-10-21T21:38:31.130Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_EACH',
+    framework: 'pytest',
+    uuid: '39d8c0f3-417d-481f-a663-5dba37edced6',
+    name: 'setup',
+    result: 'passed',
+    test_run_id: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+    body: { lang: 'python', code: null },
+    scope: 'test_launch_restaurant_app_ios',
+    custom_metadata: {},
+    tags: [],
+    scopes: [
+      'tests',
+      'iOS',
+      'restaurant_app',
+      'test_launch_restaurant_app_bs_ios.py'
+    ],
+    file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    started_at: '2026-10-21T21:38:31.085Z',
+    finished_at: '2026-10-21T21:38:31.120Z'
+  },
+  logs: []
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/batch)
+2026-10-21T21:38:31.149Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'pytest',
+    uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+    name: 'test_launch_restaurant_app_ios',
+    body: {
+      lang: 'python',
+      code: 'def test_launch_restaurant_app_ios():\n' +
+        '    options = XCUITestOptions().load_capabilities({\n' +
+        '        "platformName": "iOS",\n' +
+        '        "automationName": "XCUITest",\n' +
+        '        "bundleId": APP_BUNDLE_ID,\n' +
+        '        "noReset": True,\n' +
+        '    })\n' +
+        '\n' +
+        '    driver = webdriver.Remote("http://127.0.0.1:4723", options=options)\n' +
+        '\n' +
+        '    try:\n' +
+        '        WebDriverWait(driver, 30).until(\n' +
+        '            lambda current_driver: current_driver.query_app_state(APP_BUNDLE_ID)\n' +
+        '            == FOREGROUND_APP_STATE\n' +
+        '        )\n' +
+        '        assert driver.query_app_state(APP_BUNDLE_ID) == FOREGROUND_APP_STATE, (\n' +
+        '            "Restaurant app is not in the foreground"\n' +
+        '        )\n' +
+        '        print("Restaurant App launched successfully.")\n' +
+        '    finally:\n' +
+        '        driver.quit()\n'
+    },
+    identifier: 'test_launch_restaurant_app_ios',
+    scope: 'test_launch_restaurant_app_ios',
+    scopes: [
+      'tests',
+      'iOS',
+      'restaurant_app',
+      'test_launch_restaurant_app_bs_ios.py'
+    ],
+    file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-10-21T21:38:31.128Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: {
+      rerun_name: 'tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true,
+      lts: false
+    }
+  },
+  logs: []
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/batch)
+2026-10-21T21:38:31.168Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:28.627Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: '2026-10-21T21:38:31Z [bstack11ll11ll111_opy_][INFO] - Remote Server Address being passed as : http://127.0.0.1:4723',
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:38:31.180Z CLI info [sdk:service]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Driver initialized as primary driver: platformIndex=0
+2026-10-21T21:38:31.195Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:28.627Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: '2026-10-21T21:38:31Z [bstack11ll11ll111_opy_][INFO] - Completed setup!',
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:38:31.201Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:28.627Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: "2026-10-21T21:38:31Z [bstack11ll11ll111_opy_][INFO] - driver_rank={driver_rank} driver.{method_name} platform_index={f.platform_index}: args={args} kwargs={'command_executor': 'https://hub-apse.browserstack.com/wd/hub', 'options': <appium.options.common.base.AppiumOptions object at 0x000002334F590590>, 'locator_converter': <appium.webdriver.locator_converter.AppiumLocatorConverter object at 0x000002334F5902F0>, 'web_element_cls': <class 'appium.webdriver.webelement.WebElement'>, 'client_config': <appium.webdriver.client_config.AppiumClientConfig object at 0x000002334F41BE00>, 'keep_alive': True, 'file_detector': None}",
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:38:31.205Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:28.627Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: '2026-10-21T21:38:31Z [bstack11ll11ll111_opy_][WARNING] - hub_url=https://hub-apse.browserstack.com/wd/hub',
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:38:31.214Z CLI info [local:module]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  initSession: localIdentifier=undefined pid=undefined
+2026-10-21T21:38:32.594Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_EACH',
+      framework: 'pytest',
+      uuid: '39d8c0f3-417d-481f-a663-5dba37edced6',
+      name: 'setup',
+      result: 'pending',
+      test_run_id: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      body: { lang: 'python', code: null },
+      scope: 'test_launch_restaurant_app_ios',
+      custom_metadata: {},
+      tags: [],
+      scopes: [
+        'tests',
+        'iOS',
+        'restaurant_app',
+        'test_launch_restaurant_app_bs_ios.py'
+      ],
+      file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      started_at: '2026-10-21T21:38:31.085Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_EACH',
+      framework: 'pytest',
+      uuid: '39d8c0f3-417d-481f-a663-5dba37edced6',
+      name: 'setup',
+      result: 'passed',
+      test_run_id: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      body: { lang: 'python', code: null },
+      scope: 'test_launch_restaurant_app_ios',
+      custom_metadata: {},
+      tags: [],
+      scopes: [
+        'tests',
+        'iOS',
+        'restaurant_app',
+        'test_launch_restaurant_app_bs_ios.py'
+      ],
+      file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      started_at: '2026-10-21T21:38:31.085Z',
+      finished_at: '2026-10-21T21:38:31.120Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'pytest',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      name: 'test_launch_restaurant_app_ios',
+      body: {
+        lang: 'python',
+        code: 'def test_launch_restaurant_app_ios():\n' +
+          '    options = XCUITestOptions().load_capabilities({\n' +
+          '        "platformName": "iOS",\n' +
+          '        "automationName": "XCUITest",\n' +
+          '        "bundleId": APP_BUNDLE_ID,\n' +
+          '        "noReset": True,\n' +
+          '    })\n' +
+          '\n' +
+          '    driver = webdriver.Remote("http://127.0.0.1:4723", options=options)\n' +
+          '\n' +
+          '    try:\n' +
+          '        WebDriverWait(driver, 30).until(\n' +
+          '            lambda current_driver: current_driver.query_app_state(APP_BUNDLE_ID)\n' +
+          '            == FOREGROUND_APP_STATE\n' +
+          '        )\n' +
+          '        assert driver.query_app_state(APP_BUNDLE_ID) == FOREGROUND_APP_STATE, (\n' +
+          '            "Restaurant app is not in the foreground"\n' +
+          '        )\n' +
+          '        print("Restaurant App launched successfully.")\n' +
+          '    finally:\n' +
+          '        driver.quit()\n'
+      },
+      identifier: 'test_launch_restaurant_app_ios',
+      scope: 'test_launch_restaurant_app_ios',
+      scopes: [
+        'tests',
+        'iOS',
+        'restaurant_app',
+        'test_launch_restaurant_app_bs_ios.py'
+      ],
+      file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-10-21T21:38:31.128Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: {
+        rerun_name: 'tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios'
+      },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: false,
+        app_automate: true,
+        lts: false
+      }
+    },
+    logs: []
+  }
+] to 10848:0
+2026-10-21T21:38:32.596Z CLI info  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-21T21:38:33.446Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:38:28.627Z',
+        uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+        kind: 'TEST_LOG',
+        message: '2026-10-21T21:38:31Z [bstack11ll11ll111_opy_][INFO] - Remote Server Address being passed as : http://127.0.0.1:4723',
+        level: 'INFO',
+        test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:38:28.627Z',
+        uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+        kind: 'TEST_LOG',
+        message: '2026-10-21T21:38:31Z [bstack11ll11ll111_opy_][INFO] - Completed setup!',
+        level: 'INFO',
+        test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:38:28.627Z',
+        uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+        kind: 'TEST_LOG',
+        message: "2026-10-21T21:38:31Z [bstack11ll11ll111_opy_][INFO] - driver_rank={driver_rank} driver.{method_name} platform_index={f.platform_index}: args={args} kwargs={'command_executor': 'https://hub-apse.browserstack.com/wd/hub', 'options': <appium.options.common.base.AppiumOptions object at 0x000002334F590590>, 'locator_converter': <appium.webdriver.locator_converter.AppiumLocatorConverter object at 0x000002334F5902F0>, 'web_element_cls': <class 'appium.webdriver.webelement.WebElement'>, 'client_config': <appium.webdriver.client_config.AppiumClientConfig object at 0x000002334F41BE00>, 'keep_alive': True, 'file_detector': None}",
+        level: 'INFO',
+        test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:38:28.627Z',
+        uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+        kind: 'TEST_LOG',
+        message: '2026-10-21T21:38:31Z [bstack11ll11ll111_opy_][WARNING] - hub_url=https://hub-apse.browserstack.com/wd/hub',
+        level: 'INFO',
+        test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+      }
+    ]
+  }
+] to 10848:0
+2026-10-21T21:38:33.448Z CLI info  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-21T21:39:00.210Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+    integrations: { browserstack: [Object] }
+  }
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/batch)
+2026-10-21T21:39:00.735Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      integrations: {
+        browserstack: {
+          product: 'app-automate',
+          session_id: 'e6f9f571f70c98c3b57e0fa5353ad62195b92ad1',
+          capabilities: {
+            webStorageEnabled: false,
+            locationContextEnabled: false,
+            browserName: '',
+            platform: 'MAC',
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            takesScreenshot: true,
+            networkConnectionEnabled: false,
+            platformName: 'iOS',
+            'bstack:options': { hostName: 'Desktop-Laiba', buildIdentifier: '#11' },
+            newCommandTimeout: 0,
+            realMobile: 'true',
+            deviceName: 'iPhone 15',
+            safariIgnoreFraudWarning: true,
+            orientation: 'PORTRAIT',
+            deviceOrientation: 'PORTRAIT',
+            noReset: true,
+            automationName: 'XCUITest',
+            keychainPath: '[REDACTED VALUE]',
+            keychainPassword: '[REDACTED VALUE]',
+            useXctestrunFile: true,
+            bootstrapPath: '/usr/local/.browserstack/config/wda_derived_data_17_3.5.2.12.0.0_3f1f4146-d344-4e69-b085-34bbe998bf36/Build/Products',
+            'browserstack.isTargetBased': 'true',
+            bundleID: 'com.halaleats.store',
+            bundleId: 'com.halaleats.store',
+            udid: '00008120-001871460E00201E',
+            webkitResponseTimeout: 20000,
+            safariInitialUrl: 'http://mobile-internet-check.browserstack.com',
+            waitForQuiescence: false,
+            wdaStartupRetries: 3,
+            optimalHubUrl: 'hub-apse.browserstack.com'
+          },
+          platform: 'iOS',
+          platform_version: '17',
+          browser: undefined,
+          browser_version: undefined,
+          device_name: 'iPhone 15'
+        }
+      }
+    }
+  }
+] to 10848:0
+2026-10-21T21:39:00.747Z CLI info  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-21T21:39:34.015Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:28.627Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: 'Test failed:',
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:39:34.019Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:28.627Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: 'tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios',
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:39:34.025Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:28.627Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: 'zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0',
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:39:34.029Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:28.627Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: 'Test failed:  tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0',
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:39:34.035Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:28.627Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: '\x1B]9;4;2;0\x1B\\',
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:39:34.043Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:28.627Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: '\x1B[31mFAILED\x1B[0m',
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:39:34.830Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:38:28.627Z',
+        uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+        kind: 'TEST_LOG',
+        message: 'Test failed:',
+        level: 'INFO',
+        test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:38:28.627Z',
+        uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+        kind: 'TEST_LOG',
+        message: 'tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios',
+        level: 'INFO',
+        test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:38:28.627Z',
+        uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+        kind: 'TEST_LOG',
+        message: 'zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0',
+        level: 'INFO',
+        test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:38:28.627Z',
+        uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+        kind: 'TEST_LOG',
+        message: 'Test failed:  tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0',
+        level: 'INFO',
+        test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:38:28.627Z',
+        uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+        kind: 'TEST_LOG',
+        message: '\x1B]9;4;2;0\x1B\\',
+        level: 'INFO',
+        test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:38:28.627Z',
+        uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+        kind: 'TEST_LOG',
+        message: '\x1B[31mFAILED\x1B[0m',
+        level: 'INFO',
+        test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+      }
+    ]
+  }
+] to 10848:0
+2026-10-21T21:39:34.831Z CLI info  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-21T21:39:35.793Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'pytest',
+    uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+    name: 'test_launch_restaurant_app_ios',
+    body: {
+      lang: 'python',
+      code: 'def test_launch_restaurant_app_ios():\n' +
+        '    options = XCUITestOptions().load_capabilities({\n' +
+        '        "platformName": "iOS",\n' +
+        '        "automationName": "XCUITest",\n' +
+        '        "bundleId": APP_BUNDLE_ID,\n' +
+        '        "noReset": True,\n' +
+        '    })\n' +
+        '\n' +
+        '    driver = webdriver.Remote("http://127.0.0.1:4723", options=options)\n' +
+        '\n' +
+        '    try:\n' +
+        '        WebDriverWait(driver, 30).until(\n' +
+        '            lambda current_driver: current_driver.query_app_state(APP_BUNDLE_ID)\n' +
+        '            == FOREGROUND_APP_STATE\n' +
+        '        )\n' +
+        '        assert driver.query_app_state(APP_BUNDLE_ID) == FOREGROUND_APP_STATE, (\n' +
+        '            "Restaurant app is not in the foreground"\n' +
+        '        )\n' +
+        '        print("Restaurant App launched successfully.")\n' +
+        '    finally:\n' +
+        '        driver.quit()\n'
+    },
+    identifier: 'test_launch_restaurant_app_ios',
+    scope: 'test_launch_restaurant_app_ios',
+    scopes: [
+      'tests',
+      'iOS',
+      'restaurant_app',
+      'test_launch_restaurant_app_bs_ios.py'
+    ],
+    file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    result: 'failed',
+    duration_in_ms: 62907,
+    started_at: '2026-10-21T21:38:31.128Z',
+    finished_at: '2026-10-21T21:39:34.035Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: {
+      rerun_name: 'tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios'
+    },
+    hooks: [ '39d8c0f3-417d-481f-a663-5dba37edced6' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true,
+      lts: false
+    }
+  },
+  logs: []
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/batch)
+2026-10-21T21:39:35.797Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_EACH',
+    framework: 'pytest',
+    uuid: '0ad1841f-dac8-4d2b-bda2-3de17a867f2d',
+    name: 'teardown',
+    result: 'pending',
+    test_run_id: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+    body: { lang: 'python', code: null },
+    scope: 'test_launch_restaurant_app_ios',
+    custom_metadata: {},
+    tags: [],
+    scopes: [
+      'tests',
+      'iOS',
+      'restaurant_app',
+      'test_launch_restaurant_app_bs_ios.py'
+    ],
+    file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    started_at: '2026-10-21T21:39:35.782Z'
+  },
+  logs: []
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/batch)
+2026-10-21T21:39:35.822Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:31.152Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: 'Remote Server Address being passed as : http://127.0.0.1:4723',
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:39:35.823Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:31.189Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: 'Completed setup!',
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:39:35.823Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:31.194Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: "driver_rank={driver_rank} driver.{method_name} platform_index={f.platform_index}: args={args} kwargs={'command_executor': 'https://hub-apse.browserstack.com/wd/hub', 'options': <appium.options.common.base.AppiumOptions object at 0x000002334F590590>, 'locator_converter': <appium.webdriver.locator_converter.AppiumLocatorConverter object at 0x000002334F5902F0>, 'web_element_cls': <class 'appium.webdriver.webelement.WebElement'>, 'client_config': <appium.webdriver.client_config.AppiumClientConfig object at 0x000002334F41BE00>, 'keep_alive': True, 'file_detector': None}",
+      level: 'INFO',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:39:35.823Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:38:31.200Z',
+      uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+      kind: 'TEST_LOG',
+      message: 'hub_url=https://hub-apse.browserstack.com/wd/hub',
+      level: 'WARNING',
+      test_run_uuid: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71'
+    }
+  ]
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/logs/batch)
+2026-10-21T21:39:35.828Z CLI info [testhub:request-queue-handler]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_EACH',
+    framework: 'pytest',
+    uuid: '0ad1841f-dac8-4d2b-bda2-3de17a867f2d',
+    name: 'teardown',
+    result: 'passed',
+    test_run_id: '5dd3e8cc-0441-4383-8eb7-7ee87f592d71',
+    body: { lang: 'python', code: null },
+    scope: 'test_launch_restaurant_app_ios',
+    custom_metadata: {},
+    tags: [],
+    scopes: [
+      'tests',
+      'iOS',
+      'restaurant_app',
+      'test_launch_restaurant_app_bs_ios.py'
+    ],
+    file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    started_at: '2026-10-21T21:39:35.782Z',
+    finished_at: '2026-10-21T21:39:35.814Z'
+  },
+  logs: []
+} to 10848:0 (target=/api/v2/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0/batch)
+2026-10-21T21:39:36.440Z CLI info  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-10-21T21:39:36.451Z CLI info  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-21T21:39:36.457Z CLI info  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-21T21:39:37.154Z CLI info  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-10-21T21:39:37.840Z CLI info [testhub:module]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  stopBuild: zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0 request={"finished_at":"2026-10-21T21:39:36.438Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-10-21T21:39:37.846Z CLI info  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-10-21T21:39:38.473Z CLI info [TEST REPORTING AND ANALYTICS:module]  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  Visit https://automation.browserstack.com/builds/zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0 to view build report, insights, and many more debugging information all at one place!
+2026-10-21T21:39:38.536Z CLI info  [zd4zubebtdvkjfdjk3wd64num1byu3isjkbjwcf0]  [45d6988c-d479-4ab7-9ff7-45cdaa8bc183]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2026-10-21T21:41:49.568Z CLI info [main]    Server listening on port: 5400
+2026-10-21T21:41:49.650Z CLI info    Config : {"framework":"pytest","app":"bs://337a963b245f9b4ca104e7d3f14dec22006a1c30","appiumVersion":"2.19.0","video":true,"interactiveDebugging":true,"newCommandTimeout":300,"platforms":[{"platformName":"ios","platformVersion":"17","deviceName":"iPhone 15","automationName":"XCUITest"}],"parallelsPerPlatform":1,"projectName":"HalalEats Restaurant iOS App Automation","buildName":"iOS 15 Restaurant Test Build","browserstackLocal":false}
+2026-10-21T21:41:49.695Z CLI info    Should start debug utility: undefined
+2026-10-21T21:41:49.702Z CLI info [testhub:module]   [eaef4f80-177d-4f55-b279-d07bcef05b52]  Starting testhub from 16724:0
+2026-10-21T21:41:50.746Z CLI info   [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-10-21T21:41:50.750Z CLI info   [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-10-21T21:41:52.025Z CLI info   [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-10-21T21:41:52.027Z CLI info   [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-10-21T21:41:52.029Z CLI info   [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-10-21T21:41:52.144Z CLI info [testhub:module]   [eaef4f80-177d-4f55-b279-d07bcef05b52]  startBuild: response=tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka
+2026-10-21T21:41:52.152Z CLI info  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-10-21T21:41:53.040Z CLI info  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-10-21T21:41:53.642Z CLI error  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  error invoking callback for eventName onStart: invalid percyToken=null
+2026-10-21T21:41:53.642Z CLI error  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-10-21T21:41:53.643Z CLI info [appautomate:service]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Using app: bs://337a963b245f9b4ca104e7d3f14dec22006a1c30
+2026-10-21T21:41:58.926Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_EACH',
+    framework: 'pytest',
+    uuid: 'e7b569de-6594-4544-9d33-a6c54eaed34d',
+    name: 'setup',
+    result: 'pending',
+    test_run_id: '72723f0c-754a-417c-9455-7bdea4c0954a',
+    body: { lang: 'python', code: null },
+    scope: 'test_launch_restaurant_app_ios',
+    custom_metadata: {},
+    tags: [],
+    scopes: [
+      'tests',
+      'iOS',
+      'restaurant_app',
+      'test_launch_restaurant_app_bs_ios.py'
+    ],
+    file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    started_at: '2026-10-21T21:41:58.904Z'
+  },
+  logs: []
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/batch)
+2026-10-21T21:41:58.947Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_EACH',
+    framework: 'pytest',
+    uuid: 'e7b569de-6594-4544-9d33-a6c54eaed34d',
+    name: 'setup',
+    result: 'passed',
+    test_run_id: '72723f0c-754a-417c-9455-7bdea4c0954a',
+    body: { lang: 'python', code: null },
+    scope: 'test_launch_restaurant_app_ios',
+    custom_metadata: {},
+    tags: [],
+    scopes: [
+      'tests',
+      'iOS',
+      'restaurant_app',
+      'test_launch_restaurant_app_bs_ios.py'
+    ],
+    file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    started_at: '2026-10-21T21:41:58.904Z',
+    finished_at: '2026-10-21T21:41:58.940Z'
+  },
+  logs: []
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/batch)
+2026-10-21T21:41:58.964Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'pytest',
+    uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+    name: 'test_launch_restaurant_app_ios',
+    body: {
+      lang: 'python',
+      code: 'def test_launch_restaurant_app_ios():\n' +
+        '    options = XCUITestOptions().load_capabilities({\n' +
+        '        "platformName": "iOS",\n' +
+        '        "automationName": "XCUITest",\n' +
+        '        "bundleId": APP_BUNDLE_ID,\n' +
+        '        "noReset": True,\n' +
+        '    })\n' +
+        '\n' +
+        '    driver = webdriver.Remote("http://127.0.0.1:4723", options=options)\n' +
+        '\n' +
+        '    try:\n' +
+        '        WebDriverWait(driver, 30).until(\n' +
+        '            lambda current_driver: current_driver.query_app_state(APP_BUNDLE_ID)\n' +
+        '            == FOREGROUND_APP_STATE\n' +
+        '        )\n' +
+        '        assert driver.query_app_state(APP_BUNDLE_ID) == FOREGROUND_APP_STATE, (\n' +
+        '            "Restaurant app is not in the foreground"\n' +
+        '        )\n' +
+        '        print("Restaurant App launched successfully.")\n' +
+        '    finally:\n' +
+        '        driver.quit()\n'
+    },
+    identifier: 'test_launch_restaurant_app_ios',
+    scope: 'test_launch_restaurant_app_ios',
+    scopes: [
+      'tests',
+      'iOS',
+      'restaurant_app',
+      'test_launch_restaurant_app_bs_ios.py'
+    ],
+    file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-10-21T21:41:58.946Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: {
+      rerun_name: 'tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true,
+      lts: false
+    }
+  },
+  logs: []
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/batch)
+2026-10-21T21:41:58.980Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:56.266Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: '2026-10-21T21:41:58Z [bstack11ll11ll111_opy_][INFO] - Remote Server Address being passed as : http://127.0.0.1:4723',
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:41:58.991Z CLI info [sdk:service]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Driver initialized as primary driver: platformIndex=0
+2026-10-21T21:41:59.006Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:56.266Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: '2026-10-21T21:41:58Z [bstack11ll11ll111_opy_][INFO] - Completed setup!',
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:41:59.011Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:56.266Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: "2026-10-21T21:41:59Z [bstack11ll11ll111_opy_][INFO] - driver_rank={driver_rank} driver.{method_name} platform_index={f.platform_index}: args={args} kwargs={'command_executor': 'https://hub-apse.browserstack.com/wd/hub', 'options': <appium.options.common.base.AppiumOptions object at 0x0000019C2DA60590>, 'locator_converter': <appium.webdriver.locator_converter.AppiumLocatorConverter object at 0x0000019C2DA602F0>, 'web_element_cls': <class 'appium.webdriver.webelement.WebElement'>, 'client_config': <appium.webdriver.client_config.AppiumClientConfig object at 0x0000019C2D903E00>, 'keep_alive': True, 'file_detector': None}",
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:41:59.014Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:56.266Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: '2026-10-21T21:41:59Z [bstack11ll11ll111_opy_][WARNING] - hub_url=https://hub-apse.browserstack.com/wd/hub',
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:41:59.022Z CLI info [local:module]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  initSession: localIdentifier=undefined pid=undefined
+2026-10-21T21:42:00.186Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_EACH',
+      framework: 'pytest',
+      uuid: 'e7b569de-6594-4544-9d33-a6c54eaed34d',
+      name: 'setup',
+      result: 'pending',
+      test_run_id: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      body: { lang: 'python', code: null },
+      scope: 'test_launch_restaurant_app_ios',
+      custom_metadata: {},
+      tags: [],
+      scopes: [
+        'tests',
+        'iOS',
+        'restaurant_app',
+        'test_launch_restaurant_app_bs_ios.py'
+      ],
+      file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      started_at: '2026-10-21T21:41:58.904Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_EACH',
+      framework: 'pytest',
+      uuid: 'e7b569de-6594-4544-9d33-a6c54eaed34d',
+      name: 'setup',
+      result: 'passed',
+      test_run_id: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      body: { lang: 'python', code: null },
+      scope: 'test_launch_restaurant_app_ios',
+      custom_metadata: {},
+      tags: [],
+      scopes: [
+        'tests',
+        'iOS',
+        'restaurant_app',
+        'test_launch_restaurant_app_bs_ios.py'
+      ],
+      file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      started_at: '2026-10-21T21:41:58.904Z',
+      finished_at: '2026-10-21T21:41:58.940Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'pytest',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      name: 'test_launch_restaurant_app_ios',
+      body: {
+        lang: 'python',
+        code: 'def test_launch_restaurant_app_ios():\n' +
+          '    options = XCUITestOptions().load_capabilities({\n' +
+          '        "platformName": "iOS",\n' +
+          '        "automationName": "XCUITest",\n' +
+          '        "bundleId": APP_BUNDLE_ID,\n' +
+          '        "noReset": True,\n' +
+          '    })\n' +
+          '\n' +
+          '    driver = webdriver.Remote("http://127.0.0.1:4723", options=options)\n' +
+          '\n' +
+          '    try:\n' +
+          '        WebDriverWait(driver, 30).until(\n' +
+          '            lambda current_driver: current_driver.query_app_state(APP_BUNDLE_ID)\n' +
+          '            == FOREGROUND_APP_STATE\n' +
+          '        )\n' +
+          '        assert driver.query_app_state(APP_BUNDLE_ID) == FOREGROUND_APP_STATE, (\n' +
+          '            "Restaurant app is not in the foreground"\n' +
+          '        )\n' +
+          '        print("Restaurant App launched successfully.")\n' +
+          '    finally:\n' +
+          '        driver.quit()\n'
+      },
+      identifier: 'test_launch_restaurant_app_ios',
+      scope: 'test_launch_restaurant_app_ios',
+      scopes: [
+        'tests',
+        'iOS',
+        'restaurant_app',
+        'test_launch_restaurant_app_bs_ios.py'
+      ],
+      file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-10-21T21:41:58.946Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: {
+        rerun_name: 'tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios'
+      },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: false,
+        app_automate: true,
+        lts: false
+      }
+    },
+    logs: []
+  }
+] to 16724:0
+2026-10-21T21:42:00.188Z CLI info  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-21T21:42:01.106Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:41:56.266Z',
+        uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+        kind: 'TEST_LOG',
+        message: '2026-10-21T21:41:58Z [bstack11ll11ll111_opy_][INFO] - Remote Server Address being passed as : http://127.0.0.1:4723',
+        level: 'INFO',
+        test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:41:56.266Z',
+        uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+        kind: 'TEST_LOG',
+        message: '2026-10-21T21:41:58Z [bstack11ll11ll111_opy_][INFO] - Completed setup!',
+        level: 'INFO',
+        test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:41:56.266Z',
+        uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+        kind: 'TEST_LOG',
+        message: "2026-10-21T21:41:59Z [bstack11ll11ll111_opy_][INFO] - driver_rank={driver_rank} driver.{method_name} platform_index={f.platform_index}: args={args} kwargs={'command_executor': 'https://hub-apse.browserstack.com/wd/hub', 'options': <appium.options.common.base.AppiumOptions object at 0x0000019C2DA60590>, 'locator_converter': <appium.webdriver.locator_converter.AppiumLocatorConverter object at 0x0000019C2DA602F0>, 'web_element_cls': <class 'appium.webdriver.webelement.WebElement'>, 'client_config': <appium.webdriver.client_config.AppiumClientConfig object at 0x0000019C2D903E00>, 'keep_alive': True, 'file_detector': None}",
+        level: 'INFO',
+        test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:41:56.266Z',
+        uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+        kind: 'TEST_LOG',
+        message: '2026-10-21T21:41:59Z [bstack11ll11ll111_opy_][WARNING] - hub_url=https://hub-apse.browserstack.com/wd/hub',
+        level: 'INFO',
+        test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+      }
+    ]
+  }
+] to 16724:0
+2026-10-21T21:42:01.109Z CLI info  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-21T21:42:37.785Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+    integrations: { browserstack: [Object] }
+  }
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/batch)
+2026-10-21T21:42:38.391Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      integrations: {
+        browserstack: {
+          product: 'app-automate',
+          session_id: 'e1303ae965f6503d3517782d1f4ac58a65d55072',
+          capabilities: {
+            webStorageEnabled: false,
+            locationContextEnabled: false,
+            browserName: '',
+            platform: 'MAC',
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            takesScreenshot: true,
+            networkConnectionEnabled: false,
+            platformName: 'iOS',
+            'bstack:options': { hostName: 'Desktop-Laiba', buildIdentifier: '#12' },
+            newCommandTimeout: 0,
+            realMobile: 'true',
+            deviceName: 'iPhone 15',
+            safariIgnoreFraudWarning: true,
+            orientation: 'PORTRAIT',
+            deviceOrientation: 'PORTRAIT',
+            noReset: true,
+            automationName: 'XCUITest',
+            keychainPath: '[REDACTED VALUE]',
+            keychainPassword: '[REDACTED VALUE]',
+            useXctestrunFile: true,
+            bootstrapPath: '/usr/local/.browserstack/config/wda_derived_data_17_3.5.2.12.0.0_3f1f4146-d344-4e69-b085-34bbe998bf36/Build/Products',
+            'browserstack.isTargetBased': 'true',
+            bundleID: 'com.halaleats.store',
+            bundleId: 'com.halaleats.store',
+            udid: '00008120-00141DA61A92201E',
+            webkitResponseTimeout: 20000,
+            safariInitialUrl: 'http://mobile-internet-check.browserstack.com',
+            waitForQuiescence: false,
+            wdaStartupRetries: 3,
+            optimalHubUrl: 'hub-aps.browserstack.com'
+          },
+          platform: 'iOS',
+          platform_version: '17',
+          browser: undefined,
+          browser_version: undefined,
+          device_name: 'iPhone 15'
+        }
+      }
+    }
+  }
+] to 16724:0
+2026-10-21T21:42:38.397Z CLI info  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-21T21:43:11.754Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:56.266Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: 'Test failed:',
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:43:11.759Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:56.266Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: 'tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios',
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:43:11.762Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:56.266Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: 'tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka',
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:43:11.764Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:56.266Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: 'Test failed:  tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka',
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:43:11.771Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:56.266Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: '\x1B]9;4;2;0\x1B\\',
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:43:11.777Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:56.266Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: '\x1B[31mFAILED\x1B[0m',
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:43:12.467Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:41:56.266Z',
+        uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+        kind: 'TEST_LOG',
+        message: 'Test failed:',
+        level: 'INFO',
+        test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:41:56.266Z',
+        uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+        kind: 'TEST_LOG',
+        message: 'tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios',
+        level: 'INFO',
+        test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:41:56.266Z',
+        uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+        kind: 'TEST_LOG',
+        message: 'tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka',
+        level: 'INFO',
+        test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:41:56.266Z',
+        uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+        kind: 'TEST_LOG',
+        message: 'Test failed:  tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka',
+        level: 'INFO',
+        test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:41:56.266Z',
+        uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+        kind: 'TEST_LOG',
+        message: '\x1B]9;4;2;0\x1B\\',
+        level: 'INFO',
+        test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'pytest',
+        testFrameworkVersion: '9.1.1',
+        testFrameworkState: 'INIT_TEST',
+        timestamp: '2026-10-21T21:41:56.266Z',
+        uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+        kind: 'TEST_LOG',
+        message: '\x1B[31mFAILED\x1B[0m',
+        level: 'INFO',
+        test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+      }
+    ]
+  }
+] to 16724:0
+2026-10-21T21:43:12.468Z CLI info  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-21T21:43:13.490Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'pytest',
+    uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+    name: 'test_launch_restaurant_app_ios',
+    body: {
+      lang: 'python',
+      code: 'def test_launch_restaurant_app_ios():\n' +
+        '    options = XCUITestOptions().load_capabilities({\n' +
+        '        "platformName": "iOS",\n' +
+        '        "automationName": "XCUITest",\n' +
+        '        "bundleId": APP_BUNDLE_ID,\n' +
+        '        "noReset": True,\n' +
+        '    })\n' +
+        '\n' +
+        '    driver = webdriver.Remote("http://127.0.0.1:4723", options=options)\n' +
+        '\n' +
+        '    try:\n' +
+        '        WebDriverWait(driver, 30).until(\n' +
+        '            lambda current_driver: current_driver.query_app_state(APP_BUNDLE_ID)\n' +
+        '            == FOREGROUND_APP_STATE\n' +
+        '        )\n' +
+        '        assert driver.query_app_state(APP_BUNDLE_ID) == FOREGROUND_APP_STATE, (\n' +
+        '            "Restaurant app is not in the foreground"\n' +
+        '        )\n' +
+        '        print("Restaurant App launched successfully.")\n' +
+        '    finally:\n' +
+        '        driver.quit()\n'
+    },
+    identifier: 'test_launch_restaurant_app_ios',
+    scope: 'test_launch_restaurant_app_ios',
+    scopes: [
+      'tests',
+      'iOS',
+      'restaurant_app',
+      'test_launch_restaurant_app_bs_ios.py'
+    ],
+    file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    result: 'failed',
+    duration_in_ms: 72825,
+    started_at: '2026-10-21T21:41:58.946Z',
+    finished_at: '2026-10-21T21:43:11.771Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: {
+      rerun_name: 'tests/iOS/restaurant_app/test_launch_restaurant_app_bs_ios.py::test_launch_restaurant_app_ios'
+    },
+    hooks: [ 'e7b569de-6594-4544-9d33-a6c54eaed34d' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true,
+      lts: false
+    }
+  },
+  logs: []
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/batch)
+2026-10-21T21:43:13.500Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_EACH',
+    framework: 'pytest',
+    uuid: 'ca57cfd8-dae6-4294-84fa-34e14f9bce32',
+    name: 'teardown',
+    result: 'pending',
+    test_run_id: '72723f0c-754a-417c-9455-7bdea4c0954a',
+    body: { lang: 'python', code: null },
+    scope: 'test_launch_restaurant_app_ios',
+    custom_metadata: {},
+    tags: [],
+    scopes: [
+      'tests',
+      'iOS',
+      'restaurant_app',
+      'test_launch_restaurant_app_bs_ios.py'
+    ],
+    file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    started_at: '2026-10-21T21:43:13.485Z'
+  },
+  logs: []
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/batch)
+2026-10-21T21:43:13.535Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:58.965Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: 'Remote Server Address being passed as : http://127.0.0.1:4723',
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:43:13.537Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:58.999Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: 'Completed setup!',
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:43:13.538Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:59.003Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: "driver_rank={driver_rank} driver.{method_name} platform_index={f.platform_index}: args={args} kwargs={'command_executor': 'https://hub-apse.browserstack.com/wd/hub', 'options': <appium.options.common.base.AppiumOptions object at 0x0000019C2DA60590>, 'locator_converter': <appium.webdriver.locator_converter.AppiumLocatorConverter object at 0x0000019C2DA602F0>, 'web_element_cls': <class 'appium.webdriver.webelement.WebElement'>, 'client_config': <appium.webdriver.client_config.AppiumClientConfig object at 0x0000019C2D903E00>, 'keep_alive': True, 'file_detector': None}",
+      level: 'INFO',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:43:13.538Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'pytest',
+      testFrameworkVersion: '9.1.1',
+      testFrameworkState: 'INIT_TEST',
+      timestamp: '2026-10-21T21:41:59.009Z',
+      uuid: '72723f0c-754a-417c-9455-7bdea4c0954a',
+      kind: 'TEST_LOG',
+      message: 'hub_url=https://hub-apse.browserstack.com/wd/hub',
+      level: 'WARNING',
+      test_run_uuid: '72723f0c-754a-417c-9455-7bdea4c0954a'
+    }
+  ]
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/logs/batch)
+2026-10-21T21:43:13.544Z CLI info [testhub:request-queue-handler]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_EACH',
+    framework: 'pytest',
+    uuid: 'ca57cfd8-dae6-4294-84fa-34e14f9bce32',
+    name: 'teardown',
+    result: 'passed',
+    test_run_id: '72723f0c-754a-417c-9455-7bdea4c0954a',
+    body: { lang: 'python', code: null },
+    scope: 'test_launch_restaurant_app_ios',
+    custom_metadata: {},
+    tags: [],
+    scopes: [
+      'tests',
+      'iOS',
+      'restaurant_app',
+      'test_launch_restaurant_app_bs_ios.py'
+    ],
+    file_name: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    location: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    vc_filepath: 'tests\\iOS\\restaurant_app\\test_launch_restaurant_app_bs_ios.py',
+    started_at: '2026-10-21T21:43:13.485Z',
+    finished_at: '2026-10-21T21:43:13.532Z'
+  },
+  logs: []
+} to 16724:0 (target=/api/v2/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka/batch)
+2026-10-21T21:43:14.179Z CLI info  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-10-21T21:43:14.189Z CLI info  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-21T21:43:14.196Z CLI info  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-10-21T21:43:14.896Z CLI info  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-10-21T21:43:15.589Z CLI info [testhub:module]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  stopBuild: tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka request={"finished_at":"2026-10-21T21:43:14.178Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-10-21T21:43:15.602Z CLI info  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-10-21T21:43:16.223Z CLI info [TEST REPORTING AND ANALYTICS:module]  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  Visit https://automation.browserstack.com/builds/tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka to view build report, insights, and many more debugging information all at one place!
+2026-10-21T21:43:16.284Z CLI info  [tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka]  [eaef4f80-177d-4f55-b279-d07bcef05b52]  [PRODUCTION] Making POST request to https://eds.browserstack.com

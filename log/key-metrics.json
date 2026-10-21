@@ -1,9 +1,9 @@
 [
     {
-        "duration": 1787.842041015625,
+        "duration": 1979.547607421875,
         "name": "sdk:sendFunnelTestCompleted",
-        "startTime": 1792618528535.215,
-        "worker": "10284-8800",
+        "startTime": 1792619026342.828,
+        "worker": "15184-8412",
         "status": true,
         "failure": null,
         "details": null,
@@ -15,12 +15,12 @@
         "cli": true
     },
     {
-        "duration": 4915.895751953125,
+        "duration": 2578.906005859375,
         "name": "sdk:auto-capture",
-        "startTime": 1792618528544.4314,
-        "worker": "24572-8800",
+        "startTime": 1792619026344.7185,
+        "worker": "6496-8412",
         "status": false,
-        "failure": "send_logs exception: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\\\Users\\\\Laiba\\\\AppData\\\\Local\\\\Temp\\\\bstack-logs-refcssp5afyf1rway5sevztjrqqozx2q44ygv2v6.tar.gz'",
+        "failure": "send_logs exception: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\\\Users\\\\Laiba\\\\AppData\\\\Local\\\\Temp\\\\bstack-logs-tjl82nnk7glwbahezjls7ebgyryf6gkkqxiyyrka.tar.gz'",
         "details": null,
         "entryType": "measure",
         "platform": "0",
@@ -30,10 +30,10 @@
         "cli": true
     },
     {
-        "duration": 4939.233154296875,
+        "duration": 2597.155029296875,
         "name": "sdk:exit-handler",
-        "startTime": 1792618528527.335,
-        "worker": "11732-8800",
+        "startTime": 1792619026337.8376,
+        "worker": "19748-8412",
         "status": true,
         "failure": null,
         "details": null,
